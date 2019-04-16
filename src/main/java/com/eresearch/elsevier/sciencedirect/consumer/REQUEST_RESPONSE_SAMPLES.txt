@@ -1,0 +1,1158 @@
+---------------------------------
+------  EXAMPLE REQUEST  --------
+---------------------------------
+
+{
+  "firstname":"Anastasios",
+  "initials":"",
+  "surname":"Tsolakidis"
+}
+
+
+---------------------------------
+------  EXAMPLE RESPONSE  -------
+---------------------------------
+
+{
+    "operation-result": true,
+    "process-finished-date": "2019-04-11T23:04:26.836Z",
+    "requested-elsevier-sciencedirect-consumer-dto": {
+        "firstname": "Anastasios",
+        "initials": "",
+        "surname": "Tsolakidis"
+    },
+    "fetched-results-size": 3,
+    "fetched-results": [
+        {
+            "search-results": {
+                "opensearch:totalResults": "5",
+                "opensearch:startIndex": "0",
+                "opensearch:itemsPerPage": "5",
+                "opensearch:Query": {
+                    "@role": "request",
+                    "@searchTerms": "aus(Anastasios Tsolakidis)",
+                    "@startPage": "0"
+                },
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@href": "https://api.elsevier.com/content/search/sciencedirect?start=0&count=25&query=aus%28Anastasios+Tsolakidis%29&view=complete",
+                        "@ref": "self",
+                        "@type": "application/json"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@href": "https://api.elsevier.com/content/search/sciencedirect?start=0&count=25&query=aus%28Anastasios+Tsolakidis%29&view=complete",
+                        "@ref": "first",
+                        "@type": "application/json"
+                    }
+                ],
+                "entry": [
+                    {
+                        "@force-array": null,
+                        "error": null,
+                        "@_fa": "true",
+                        "load-date": "2013-04-09T00:00:00Z",
+                        "link": [
+                            {
+                                "@_fa": "true",
+                                "@href": "https://api.elsevier.com/content/article/pii/S1877042813003789",
+                                "@ref": "self",
+                                "@type": null
+                            },
+                            {
+                                "@_fa": "true",
+                                "@href": "https://www.sciencedirect.com/science/article/pii/S1877042813003789?dgcid=api_sd_search-api-endpoint",
+                                "@ref": "scidir",
+                                "@type": null
+                            }
+                        ],
+                        "prism:url": "https://api.elsevier.com/content/article/pii/S1877042813003789",
+                        "dc:identifier": "DOI:10.1016/j.sbspro.2013.02.085",
+                        "openaccess": "true",
+                        "openaccessFlag": null,
+                        "dc:title": "Institutional Research Management using an Integrated Information System",
+                        "prism:publicationName": "Procedia - Social and Behavioral Sciences",
+                        "prism:isbn": null,
+                        "prism:issn": null,
+                        "prism:volume": "73",
+                        "prism:issueIdentifier": null,
+                        "prism:issueName": null,
+                        "prism:edition": null,
+                        "prism:startingPage": "518",
+                        "prism:endingPage": "525",
+                        "prism:coverDate": "2013-02-27",
+                        "prism:coverDisplayDate": null,
+                        "dc:creator": "Tsolakidis Anastasios",
+                        "authors": {
+                            "author": [
+                                {
+                                    "$": "Tsolakidis Anastasios"
+                                },
+                                {
+                                    "$": "Sgouropoulou Cleo"
+                                },
+                                {
+                                    "$": "Papageorgiou Effie"
+                                },
+                                {
+                                    "$": "Terraz Olivier"
+                                },
+                                {
+                                    "$": "Miaoulis George"
+                                }
+                            ]
+                        },
+                        "prism:doi": "10.1016/j.sbspro.2013.02.085",
+                        "pii": "S1877042813003789",
+                        "pubType": null,
+                        "prism:teaser": null,
+                        "dc:description": null,
+                        "authkeywords": null,
+                        "prism:aggregationType": null,
+                        "prism:copyright": null,
+                        "scopus-id": null,
+                        "eid": null,
+                        "scopus-eid": null,
+                        "pubmed-id": null,
+                        "openaccessArticle": null,
+                        "openArchiveArticle": null,
+                        "openaccessUserLicense": null
+                    },
+                    {
+                        "@force-array": null,
+                        "error": null,
+                        "@_fa": "true",
+                        "load-date": "2013-04-15T00:00:00Z",
+                        "link": [
+                            {
+                                "@_fa": "true",
+                                "@href": "https://api.elsevier.com/content/article/pii/S002072921300177X",
+                                "@ref": "self",
+                                "@type": null
+                            },
+                            {
+                                "@_fa": "true",
+                                "@href": "https://www.sciencedirect.com/science/article/pii/S002072921300177X?dgcid=api_sd_search-api-endpoint",
+                                "@ref": "scidir",
+                                "@type": null
+                            }
+                        ],
+                        "prism:url": "https://api.elsevier.com/content/article/pii/S002072921300177X",
+                        "dc:identifier": "DOI:10.1016/j.ijgo.2013.03.004",
+                        "openaccess": "false",
+                        "openaccessFlag": null,
+                        "dc:title": "Uterine manifestations of tuberous sclerosis complex as a random finding at laparoscopy",
+                        "prism:publicationName": "International Journal of Gynecology & Obstetrics",
+                        "prism:isbn": null,
+                        "prism:issn": null,
+                        "prism:volume": "122",
+                        "prism:issueIdentifier": null,
+                        "prism:issueName": null,
+                        "prism:edition": null,
+                        "prism:startingPage": "156",
+                        "prism:endingPage": "157",
+                        "prism:coverDate": "2013-08-31",
+                        "prism:coverDisplayDate": null,
+                        "dc:creator": "George Pados",
+                        "authors": {
+                            "author": [
+                                {
+                                    "$": "George Pados"
+                                },
+                                {
+                                    "$": "Anastasios Makedos"
+                                },
+                                {
+                                    "$": "Dimitrios Tsolakidis"
+                                },
+                                {
+                                    "$": "Basil Tarlatzis"
+                                }
+                            ]
+                        },
+                        "prism:doi": "10.1016/j.ijgo.2013.03.004",
+                        "pii": "S002072921300177X",
+                        "pubType": null,
+                        "prism:teaser": null,
+                        "dc:description": null,
+                        "authkeywords": null,
+                        "prism:aggregationType": null,
+                        "prism:copyright": null,
+                        "scopus-id": null,
+                        "eid": null,
+                        "scopus-eid": null,
+                        "pubmed-id": null,
+                        "openaccessArticle": null,
+                        "openArchiveArticle": null,
+                        "openaccessUserLicense": null
+                    },
+                    {
+                        "@force-array": null,
+                        "error": null,
+                        "@_fa": "true",
+                        "load-date": "2014-09-29T00:00:00Z",
+                        "link": [
+                            {
+                                "@_fa": "true",
+                                "@href": "https://api.elsevier.com/content/article/pii/S1877042814040786",
+                                "@ref": "self",
+                                "@type": null
+                            },
+                            {
+                                "@_fa": "true",
+                                "@href": "https://www.sciencedirect.com/science/article/pii/S1877042814040786?dgcid=api_sd_search-api-endpoint",
+                                "@ref": "scidir",
+                                "@type": null
+                            }
+                        ],
+                        "prism:url": "https://api.elsevier.com/content/article/pii/S1877042814040786",
+                        "dc:identifier": "DOI:10.1016/j.sbspro.2014.07.159",
+                        "openaccess": "true",
+                        "openaccessFlag": null,
+                        "dc:title": "The Analysis of the Length of Studies in Higher Education based on Clustering and the Extraction of Association Rules",
+                        "prism:publicationName": "Procedia - Social and Behavioral Sciences",
+                        "prism:isbn": null,
+                        "prism:issn": null,
+                        "prism:volume": "147",
+                        "prism:issueIdentifier": null,
+                        "prism:issueName": null,
+                        "prism:edition": null,
+                        "prism:startingPage": "567",
+                        "prism:endingPage": "575",
+                        "prism:coverDate": "2014-08-25",
+                        "prism:coverDisplayDate": null,
+                        "dc:creator": "Petros Belsis",
+                        "authors": {
+                            "author": [
+                                {
+                                    "$": "Petros Belsis"
+                                },
+                                {
+                                    "$": "Ioannis Chalaris"
+                                },
+                                {
+                                    "$": "Manolis Chalaris"
+                                },
+                                {
+                                    "$": "Christos Skourlas"
+                                },
+                                {
+                                    "$": "Anastasios Tsolakidis"
+                                }
+                            ]
+                        },
+                        "prism:doi": "10.1016/j.sbspro.2014.07.159",
+                        "pii": "S1877042814040786",
+                        "pubType": null,
+                        "prism:teaser": null,
+                        "dc:description": null,
+                        "authkeywords": null,
+                        "prism:aggregationType": null,
+                        "prism:copyright": null,
+                        "scopus-id": null,
+                        "eid": null,
+                        "scopus-eid": null,
+                        "pubmed-id": null,
+                        "openaccessArticle": null,
+                        "openArchiveArticle": null,
+                        "openaccessUserLicense": null
+                    },
+                    {
+                        "@force-array": null,
+                        "error": null,
+                        "@_fa": "true",
+                        "load-date": "2013-04-09T00:00:00Z",
+                        "link": [
+                            {
+                                "@_fa": "true",
+                                "@href": "https://api.elsevier.com/content/article/pii/S1877042813003777",
+                                "@ref": "self",
+                                "@type": null
+                            },
+                            {
+                                "@_fa": "true",
+                                "@href": "https://www.sciencedirect.com/science/article/pii/S1877042813003777?dgcid=api_sd_search-api-endpoint",
+                                "@ref": "scidir",
+                                "@type": null
+                            }
+                        ],
+                        "prism:url": "https://api.elsevier.com/content/article/pii/S1877042813003777",
+                        "dc:identifier": "DOI:10.1016/j.sbspro.2013.02.084",
+                        "openaccess": "true",
+                        "openaccessFlag": null,
+                        "dc:title": "Extraction of Rules based on Students’ Questionnaires",
+                        "prism:publicationName": "Procedia - Social and Behavioral Sciences",
+                        "prism:isbn": null,
+                        "prism:issn": null,
+                        "prism:volume": "73",
+                        "prism:issueIdentifier": null,
+                        "prism:issueName": null,
+                        "prism:edition": null,
+                        "prism:startingPage": "510",
+                        "prism:endingPage": "517",
+                        "prism:coverDate": "2013-02-27",
+                        "prism:coverDisplayDate": null,
+                        "dc:creator": "Manolis Chalaris",
+                        "authors": {
+                            "author": [
+                                {
+                                    "$": "Manolis Chalaris"
+                                },
+                                {
+                                    "$": "Ioannis Chalaris"
+                                },
+                                {
+                                    "$": "Christos Skourlas"
+                                },
+                                {
+                                    "$": "Anastasios Tsolakidis"
+                                }
+                            ]
+                        },
+                        "prism:doi": "10.1016/j.sbspro.2013.02.084",
+                        "pii": "S1877042813003777",
+                        "pubType": null,
+                        "prism:teaser": null,
+                        "dc:description": null,
+                        "authkeywords": null,
+                        "prism:aggregationType": null,
+                        "prism:copyright": null,
+                        "scopus-id": null,
+                        "eid": null,
+                        "scopus-eid": null,
+                        "pubmed-id": null,
+                        "openaccessArticle": null,
+                        "openArchiveArticle": null,
+                        "openaccessUserLicense": null
+                    },
+                    {
+                        "@force-array": null,
+                        "error": null,
+                        "@_fa": "true",
+                        "load-date": "2014-09-29T00:00:00Z",
+                        "link": [
+                            {
+                                "@_fa": "true",
+                                "@href": "https://api.elsevier.com/content/article/pii/S1877042814040282",
+                                "@ref": "self",
+                                "@type": null
+                            },
+                            {
+                                "@_fa": "true",
+                                "@href": "https://www.sciencedirect.com/science/article/pii/S1877042814040282?dgcid=api_sd_search-api-endpoint",
+                                "@ref": "scidir",
+                                "@type": null
+                            }
+                        ],
+                        "prism:url": "https://api.elsevier.com/content/article/pii/S1877042814040282",
+                        "dc:identifier": "DOI:10.1016/j.sbspro.2014.07.117",
+                        "openaccess": "true",
+                        "openaccessFlag": null,
+                        "dc:title": "Improving Quality of Educational Processes Providing New Knowledge Using Data Mining Techniques",
+                        "prism:publicationName": "Procedia - Social and Behavioral Sciences",
+                        "prism:isbn": null,
+                        "prism:issn": null,
+                        "prism:volume": "147",
+                        "prism:issueIdentifier": null,
+                        "prism:issueName": null,
+                        "prism:edition": null,
+                        "prism:startingPage": "390",
+                        "prism:endingPage": "397",
+                        "prism:coverDate": "2014-08-25",
+                        "prism:coverDisplayDate": null,
+                        "dc:creator": "Manolis Chalaris",
+                        "authors": {
+                            "author": [
+                                {
+                                    "$": "Manolis Chalaris"
+                                },
+                                {
+                                    "$": "Stefanos Gritzalis"
+                                },
+                                {
+                                    "$": "Manolis Maragoudakis"
+                                },
+                                {
+                                    "$": "Cleo Sgouropoulou"
+                                },
+                                {
+                                    "$": "Anastasios Tsolakidis"
+                                }
+                            ]
+                        },
+                        "prism:doi": "10.1016/j.sbspro.2014.07.117",
+                        "pii": "S1877042814040282",
+                        "pubType": null,
+                        "prism:teaser": null,
+                        "dc:description": null,
+                        "authkeywords": null,
+                        "prism:aggregationType": null,
+                        "prism:copyright": null,
+                        "scopus-id": null,
+                        "eid": null,
+                        "scopus-eid": null,
+                        "pubmed-id": null,
+                        "openaccessArticle": null,
+                        "openArchiveArticle": null,
+                        "openaccessUserLicense": null
+                    }
+                ]
+            }
+        },
+        {
+            "search-results": {
+                "opensearch:totalResults": "5",
+                "opensearch:startIndex": "0",
+                "opensearch:itemsPerPage": "5",
+                "opensearch:Query": {
+                    "@role": "request",
+                    "@searchTerms": "aut(Anastasios Tsolakidis)",
+                    "@startPage": "0"
+                },
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@href": "https://api.elsevier.com/content/search/sciencedirect?start=0&count=25&query=aut%28Anastasios+Tsolakidis%29&view=complete",
+                        "@ref": "self",
+                        "@type": "application/json"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@href": "https://api.elsevier.com/content/search/sciencedirect?start=0&count=25&query=aut%28Anastasios+Tsolakidis%29&view=complete",
+                        "@ref": "first",
+                        "@type": "application/json"
+                    }
+                ],
+                "entry": [
+                    {
+                        "@force-array": null,
+                        "error": null,
+                        "@_fa": "true",
+                        "load-date": "2013-04-09T00:00:00Z",
+                        "link": [
+                            {
+                                "@_fa": "true",
+                                "@href": "https://api.elsevier.com/content/article/pii/S1877042813003789",
+                                "@ref": "self",
+                                "@type": null
+                            },
+                            {
+                                "@_fa": "true",
+                                "@href": "https://www.sciencedirect.com/science/article/pii/S1877042813003789?dgcid=api_sd_search-api-endpoint",
+                                "@ref": "scidir",
+                                "@type": null
+                            }
+                        ],
+                        "prism:url": "https://api.elsevier.com/content/article/pii/S1877042813003789",
+                        "dc:identifier": "DOI:10.1016/j.sbspro.2013.02.085",
+                        "openaccess": "true",
+                        "openaccessFlag": null,
+                        "dc:title": "Institutional Research Management using an Integrated Information System",
+                        "prism:publicationName": "Procedia - Social and Behavioral Sciences",
+                        "prism:isbn": null,
+                        "prism:issn": null,
+                        "prism:volume": "73",
+                        "prism:issueIdentifier": null,
+                        "prism:issueName": null,
+                        "prism:edition": null,
+                        "prism:startingPage": "518",
+                        "prism:endingPage": "525",
+                        "prism:coverDate": "2013-02-27",
+                        "prism:coverDisplayDate": null,
+                        "dc:creator": "Tsolakidis Anastasios",
+                        "authors": {
+                            "author": [
+                                {
+                                    "$": "Tsolakidis Anastasios"
+                                },
+                                {
+                                    "$": "Sgouropoulou Cleo"
+                                },
+                                {
+                                    "$": "Papageorgiou Effie"
+                                },
+                                {
+                                    "$": "Terraz Olivier"
+                                },
+                                {
+                                    "$": "Miaoulis George"
+                                }
+                            ]
+                        },
+                        "prism:doi": "10.1016/j.sbspro.2013.02.085",
+                        "pii": "S1877042813003789",
+                        "pubType": null,
+                        "prism:teaser": null,
+                        "dc:description": null,
+                        "authkeywords": null,
+                        "prism:aggregationType": null,
+                        "prism:copyright": null,
+                        "scopus-id": null,
+                        "eid": null,
+                        "scopus-eid": null,
+                        "pubmed-id": null,
+                        "openaccessArticle": null,
+                        "openArchiveArticle": null,
+                        "openaccessUserLicense": null
+                    },
+                    {
+                        "@force-array": null,
+                        "error": null,
+                        "@_fa": "true",
+                        "load-date": "2013-04-15T00:00:00Z",
+                        "link": [
+                            {
+                                "@_fa": "true",
+                                "@href": "https://api.elsevier.com/content/article/pii/S002072921300177X",
+                                "@ref": "self",
+                                "@type": null
+                            },
+                            {
+                                "@_fa": "true",
+                                "@href": "https://www.sciencedirect.com/science/article/pii/S002072921300177X?dgcid=api_sd_search-api-endpoint",
+                                "@ref": "scidir",
+                                "@type": null
+                            }
+                        ],
+                        "prism:url": "https://api.elsevier.com/content/article/pii/S002072921300177X",
+                        "dc:identifier": "DOI:10.1016/j.ijgo.2013.03.004",
+                        "openaccess": "false",
+                        "openaccessFlag": null,
+                        "dc:title": "Uterine manifestations of tuberous sclerosis complex as a random finding at laparoscopy",
+                        "prism:publicationName": "International Journal of Gynecology & Obstetrics",
+                        "prism:isbn": null,
+                        "prism:issn": null,
+                        "prism:volume": "122",
+                        "prism:issueIdentifier": null,
+                        "prism:issueName": null,
+                        "prism:edition": null,
+                        "prism:startingPage": "156",
+                        "prism:endingPage": "157",
+                        "prism:coverDate": "2013-08-31",
+                        "prism:coverDisplayDate": null,
+                        "dc:creator": "George Pados",
+                        "authors": {
+                            "author": [
+                                {
+                                    "$": "George Pados"
+                                },
+                                {
+                                    "$": "Anastasios Makedos"
+                                },
+                                {
+                                    "$": "Dimitrios Tsolakidis"
+                                },
+                                {
+                                    "$": "Basil Tarlatzis"
+                                }
+                            ]
+                        },
+                        "prism:doi": "10.1016/j.ijgo.2013.03.004",
+                        "pii": "S002072921300177X",
+                        "pubType": null,
+                        "prism:teaser": null,
+                        "dc:description": null,
+                        "authkeywords": null,
+                        "prism:aggregationType": null,
+                        "prism:copyright": null,
+                        "scopus-id": null,
+                        "eid": null,
+                        "scopus-eid": null,
+                        "pubmed-id": null,
+                        "openaccessArticle": null,
+                        "openArchiveArticle": null,
+                        "openaccessUserLicense": null
+                    },
+                    {
+                        "@force-array": null,
+                        "error": null,
+                        "@_fa": "true",
+                        "load-date": "2014-09-29T00:00:00Z",
+                        "link": [
+                            {
+                                "@_fa": "true",
+                                "@href": "https://api.elsevier.com/content/article/pii/S1877042814040786",
+                                "@ref": "self",
+                                "@type": null
+                            },
+                            {
+                                "@_fa": "true",
+                                "@href": "https://www.sciencedirect.com/science/article/pii/S1877042814040786?dgcid=api_sd_search-api-endpoint",
+                                "@ref": "scidir",
+                                "@type": null
+                            }
+                        ],
+                        "prism:url": "https://api.elsevier.com/content/article/pii/S1877042814040786",
+                        "dc:identifier": "DOI:10.1016/j.sbspro.2014.07.159",
+                        "openaccess": "true",
+                        "openaccessFlag": null,
+                        "dc:title": "The Analysis of the Length of Studies in Higher Education based on Clustering and the Extraction of Association Rules",
+                        "prism:publicationName": "Procedia - Social and Behavioral Sciences",
+                        "prism:isbn": null,
+                        "prism:issn": null,
+                        "prism:volume": "147",
+                        "prism:issueIdentifier": null,
+                        "prism:issueName": null,
+                        "prism:edition": null,
+                        "prism:startingPage": "567",
+                        "prism:endingPage": "575",
+                        "prism:coverDate": "2014-08-25",
+                        "prism:coverDisplayDate": null,
+                        "dc:creator": "Petros Belsis",
+                        "authors": {
+                            "author": [
+                                {
+                                    "$": "Petros Belsis"
+                                },
+                                {
+                                    "$": "Ioannis Chalaris"
+                                },
+                                {
+                                    "$": "Manolis Chalaris"
+                                },
+                                {
+                                    "$": "Christos Skourlas"
+                                },
+                                {
+                                    "$": "Anastasios Tsolakidis"
+                                }
+                            ]
+                        },
+                        "prism:doi": "10.1016/j.sbspro.2014.07.159",
+                        "pii": "S1877042814040786",
+                        "pubType": null,
+                        "prism:teaser": null,
+                        "dc:description": null,
+                        "authkeywords": null,
+                        "prism:aggregationType": null,
+                        "prism:copyright": null,
+                        "scopus-id": null,
+                        "eid": null,
+                        "scopus-eid": null,
+                        "pubmed-id": null,
+                        "openaccessArticle": null,
+                        "openArchiveArticle": null,
+                        "openaccessUserLicense": null
+                    },
+                    {
+                        "@force-array": null,
+                        "error": null,
+                        "@_fa": "true",
+                        "load-date": "2013-04-09T00:00:00Z",
+                        "link": [
+                            {
+                                "@_fa": "true",
+                                "@href": "https://api.elsevier.com/content/article/pii/S1877042813003777",
+                                "@ref": "self",
+                                "@type": null
+                            },
+                            {
+                                "@_fa": "true",
+                                "@href": "https://www.sciencedirect.com/science/article/pii/S1877042813003777?dgcid=api_sd_search-api-endpoint",
+                                "@ref": "scidir",
+                                "@type": null
+                            }
+                        ],
+                        "prism:url": "https://api.elsevier.com/content/article/pii/S1877042813003777",
+                        "dc:identifier": "DOI:10.1016/j.sbspro.2013.02.084",
+                        "openaccess": "true",
+                        "openaccessFlag": null,
+                        "dc:title": "Extraction of Rules based on Students’ Questionnaires",
+                        "prism:publicationName": "Procedia - Social and Behavioral Sciences",
+                        "prism:isbn": null,
+                        "prism:issn": null,
+                        "prism:volume": "73",
+                        "prism:issueIdentifier": null,
+                        "prism:issueName": null,
+                        "prism:edition": null,
+                        "prism:startingPage": "510",
+                        "prism:endingPage": "517",
+                        "prism:coverDate": "2013-02-27",
+                        "prism:coverDisplayDate": null,
+                        "dc:creator": "Manolis Chalaris",
+                        "authors": {
+                            "author": [
+                                {
+                                    "$": "Manolis Chalaris"
+                                },
+                                {
+                                    "$": "Ioannis Chalaris"
+                                },
+                                {
+                                    "$": "Christos Skourlas"
+                                },
+                                {
+                                    "$": "Anastasios Tsolakidis"
+                                }
+                            ]
+                        },
+                        "prism:doi": "10.1016/j.sbspro.2013.02.084",
+                        "pii": "S1877042813003777",
+                        "pubType": null,
+                        "prism:teaser": null,
+                        "dc:description": null,
+                        "authkeywords": null,
+                        "prism:aggregationType": null,
+                        "prism:copyright": null,
+                        "scopus-id": null,
+                        "eid": null,
+                        "scopus-eid": null,
+                        "pubmed-id": null,
+                        "openaccessArticle": null,
+                        "openArchiveArticle": null,
+                        "openaccessUserLicense": null
+                    },
+                    {
+                        "@force-array": null,
+                        "error": null,
+                        "@_fa": "true",
+                        "load-date": "2014-09-29T00:00:00Z",
+                        "link": [
+                            {
+                                "@_fa": "true",
+                                "@href": "https://api.elsevier.com/content/article/pii/S1877042814040282",
+                                "@ref": "self",
+                                "@type": null
+                            },
+                            {
+                                "@_fa": "true",
+                                "@href": "https://www.sciencedirect.com/science/article/pii/S1877042814040282?dgcid=api_sd_search-api-endpoint",
+                                "@ref": "scidir",
+                                "@type": null
+                            }
+                        ],
+                        "prism:url": "https://api.elsevier.com/content/article/pii/S1877042814040282",
+                        "dc:identifier": "DOI:10.1016/j.sbspro.2014.07.117",
+                        "openaccess": "true",
+                        "openaccessFlag": null,
+                        "dc:title": "Improving Quality of Educational Processes Providing New Knowledge Using Data Mining Techniques",
+                        "prism:publicationName": "Procedia - Social and Behavioral Sciences",
+                        "prism:isbn": null,
+                        "prism:issn": null,
+                        "prism:volume": "147",
+                        "prism:issueIdentifier": null,
+                        "prism:issueName": null,
+                        "prism:edition": null,
+                        "prism:startingPage": "390",
+                        "prism:endingPage": "397",
+                        "prism:coverDate": "2014-08-25",
+                        "prism:coverDisplayDate": null,
+                        "dc:creator": "Manolis Chalaris",
+                        "authors": {
+                            "author": [
+                                {
+                                    "$": "Manolis Chalaris"
+                                },
+                                {
+                                    "$": "Stefanos Gritzalis"
+                                },
+                                {
+                                    "$": "Manolis Maragoudakis"
+                                },
+                                {
+                                    "$": "Cleo Sgouropoulou"
+                                },
+                                {
+                                    "$": "Anastasios Tsolakidis"
+                                }
+                            ]
+                        },
+                        "prism:doi": "10.1016/j.sbspro.2014.07.117",
+                        "pii": "S1877042814040282",
+                        "pubType": null,
+                        "prism:teaser": null,
+                        "dc:description": null,
+                        "authkeywords": null,
+                        "prism:aggregationType": null,
+                        "prism:copyright": null,
+                        "scopus-id": null,
+                        "eid": null,
+                        "scopus-eid": null,
+                        "pubmed-id": null,
+                        "openaccessArticle": null,
+                        "openArchiveArticle": null,
+                        "openaccessUserLicense": null
+                    }
+                ]
+            }
+        },
+        {
+            "search-results": {
+                "opensearch:totalResults": "5",
+                "opensearch:startIndex": "0",
+                "opensearch:itemsPerPage": "5",
+                "opensearch:Query": {
+                    "@role": "request",
+                    "@searchTerms": "specific-author(Anastasios Tsolakidis)",
+                    "@startPage": "0"
+                },
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@href": "https://api.elsevier.com/content/search/sciencedirect?start=0&count=25&query=specific-author%28Anastasios+Tsolakidis%29&view=complete",
+                        "@ref": "self",
+                        "@type": "application/json"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@href": "https://api.elsevier.com/content/search/sciencedirect?start=0&count=25&query=specific-author%28Anastasios+Tsolakidis%29&view=complete",
+                        "@ref": "first",
+                        "@type": "application/json"
+                    }
+                ],
+                "entry": [
+                    {
+                        "@force-array": null,
+                        "error": null,
+                        "@_fa": "true",
+                        "load-date": "2013-04-09T00:00:00Z",
+                        "link": [
+                            {
+                                "@_fa": "true",
+                                "@href": "https://api.elsevier.com/content/article/pii/S1877042813003789",
+                                "@ref": "self",
+                                "@type": null
+                            },
+                            {
+                                "@_fa": "true",
+                                "@href": "https://www.sciencedirect.com/science/article/pii/S1877042813003789?dgcid=api_sd_search-api-endpoint",
+                                "@ref": "scidir",
+                                "@type": null
+                            }
+                        ],
+                        "prism:url": "https://api.elsevier.com/content/article/pii/S1877042813003789",
+                        "dc:identifier": "DOI:10.1016/j.sbspro.2013.02.085",
+                        "openaccess": "true",
+                        "openaccessFlag": null,
+                        "dc:title": "Institutional Research Management using an Integrated Information System",
+                        "prism:publicationName": "Procedia - Social and Behavioral Sciences",
+                        "prism:isbn": null,
+                        "prism:issn": null,
+                        "prism:volume": "73",
+                        "prism:issueIdentifier": null,
+                        "prism:issueName": null,
+                        "prism:edition": null,
+                        "prism:startingPage": "518",
+                        "prism:endingPage": "525",
+                        "prism:coverDate": "2013-02-27",
+                        "prism:coverDisplayDate": null,
+                        "dc:creator": "Tsolakidis Anastasios",
+                        "authors": {
+                            "author": [
+                                {
+                                    "$": "Tsolakidis Anastasios"
+                                },
+                                {
+                                    "$": "Sgouropoulou Cleo"
+                                },
+                                {
+                                    "$": "Papageorgiou Effie"
+                                },
+                                {
+                                    "$": "Terraz Olivier"
+                                },
+                                {
+                                    "$": "Miaoulis George"
+                                }
+                            ]
+                        },
+                        "prism:doi": "10.1016/j.sbspro.2013.02.085",
+                        "pii": "S1877042813003789",
+                        "pubType": null,
+                        "prism:teaser": null,
+                        "dc:description": null,
+                        "authkeywords": null,
+                        "prism:aggregationType": null,
+                        "prism:copyright": null,
+                        "scopus-id": null,
+                        "eid": null,
+                        "scopus-eid": null,
+                        "pubmed-id": null,
+                        "openaccessArticle": null,
+                        "openArchiveArticle": null,
+                        "openaccessUserLicense": null
+                    },
+                    {
+                        "@force-array": null,
+                        "error": null,
+                        "@_fa": "true",
+                        "load-date": "2013-04-15T00:00:00Z",
+                        "link": [
+                            {
+                                "@_fa": "true",
+                                "@href": "https://api.elsevier.com/content/article/pii/S002072921300177X",
+                                "@ref": "self",
+                                "@type": null
+                            },
+                            {
+                                "@_fa": "true",
+                                "@href": "https://www.sciencedirect.com/science/article/pii/S002072921300177X?dgcid=api_sd_search-api-endpoint",
+                                "@ref": "scidir",
+                                "@type": null
+                            }
+                        ],
+                        "prism:url": "https://api.elsevier.com/content/article/pii/S002072921300177X",
+                        "dc:identifier": "DOI:10.1016/j.ijgo.2013.03.004",
+                        "openaccess": "false",
+                        "openaccessFlag": null,
+                        "dc:title": "Uterine manifestations of tuberous sclerosis complex as a random finding at laparoscopy",
+                        "prism:publicationName": "International Journal of Gynecology & Obstetrics",
+                        "prism:isbn": null,
+                        "prism:issn": null,
+                        "prism:volume": "122",
+                        "prism:issueIdentifier": null,
+                        "prism:issueName": null,
+                        "prism:edition": null,
+                        "prism:startingPage": "156",
+                        "prism:endingPage": "157",
+                        "prism:coverDate": "2013-08-31",
+                        "prism:coverDisplayDate": null,
+                        "dc:creator": "George Pados",
+                        "authors": {
+                            "author": [
+                                {
+                                    "$": "George Pados"
+                                },
+                                {
+                                    "$": "Anastasios Makedos"
+                                },
+                                {
+                                    "$": "Dimitrios Tsolakidis"
+                                },
+                                {
+                                    "$": "Basil Tarlatzis"
+                                }
+                            ]
+                        },
+                        "prism:doi": "10.1016/j.ijgo.2013.03.004",
+                        "pii": "S002072921300177X",
+                        "pubType": null,
+                        "prism:teaser": null,
+                        "dc:description": null,
+                        "authkeywords": null,
+                        "prism:aggregationType": null,
+                        "prism:copyright": null,
+                        "scopus-id": null,
+                        "eid": null,
+                        "scopus-eid": null,
+                        "pubmed-id": null,
+                        "openaccessArticle": null,
+                        "openArchiveArticle": null,
+                        "openaccessUserLicense": null
+                    },
+                    {
+                        "@force-array": null,
+                        "error": null,
+                        "@_fa": "true",
+                        "load-date": "2014-09-29T00:00:00Z",
+                        "link": [
+                            {
+                                "@_fa": "true",
+                                "@href": "https://api.elsevier.com/content/article/pii/S1877042814040786",
+                                "@ref": "self",
+                                "@type": null
+                            },
+                            {
+                                "@_fa": "true",
+                                "@href": "https://www.sciencedirect.com/science/article/pii/S1877042814040786?dgcid=api_sd_search-api-endpoint",
+                                "@ref": "scidir",
+                                "@type": null
+                            }
+                        ],
+                        "prism:url": "https://api.elsevier.com/content/article/pii/S1877042814040786",
+                        "dc:identifier": "DOI:10.1016/j.sbspro.2014.07.159",
+                        "openaccess": "true",
+                        "openaccessFlag": null,
+                        "dc:title": "The Analysis of the Length of Studies in Higher Education based on Clustering and the Extraction of Association Rules",
+                        "prism:publicationName": "Procedia - Social and Behavioral Sciences",
+                        "prism:isbn": null,
+                        "prism:issn": null,
+                        "prism:volume": "147",
+                        "prism:issueIdentifier": null,
+                        "prism:issueName": null,
+                        "prism:edition": null,
+                        "prism:startingPage": "567",
+                        "prism:endingPage": "575",
+                        "prism:coverDate": "2014-08-25",
+                        "prism:coverDisplayDate": null,
+                        "dc:creator": "Petros Belsis",
+                        "authors": {
+                            "author": [
+                                {
+                                    "$": "Petros Belsis"
+                                },
+                                {
+                                    "$": "Ioannis Chalaris"
+                                },
+                                {
+                                    "$": "Manolis Chalaris"
+                                },
+                                {
+                                    "$": "Christos Skourlas"
+                                },
+                                {
+                                    "$": "Anastasios Tsolakidis"
+                                }
+                            ]
+                        },
+                        "prism:doi": "10.1016/j.sbspro.2014.07.159",
+                        "pii": "S1877042814040786",
+                        "pubType": null,
+                        "prism:teaser": null,
+                        "dc:description": null,
+                        "authkeywords": null,
+                        "prism:aggregationType": null,
+                        "prism:copyright": null,
+                        "scopus-id": null,
+                        "eid": null,
+                        "scopus-eid": null,
+                        "pubmed-id": null,
+                        "openaccessArticle": null,
+                        "openArchiveArticle": null,
+                        "openaccessUserLicense": null
+                    },
+                    {
+                        "@force-array": null,
+                        "error": null,
+                        "@_fa": "true",
+                        "load-date": "2013-04-09T00:00:00Z",
+                        "link": [
+                            {
+                                "@_fa": "true",
+                                "@href": "https://api.elsevier.com/content/article/pii/S1877042813003777",
+                                "@ref": "self",
+                                "@type": null
+                            },
+                            {
+                                "@_fa": "true",
+                                "@href": "https://www.sciencedirect.com/science/article/pii/S1877042813003777?dgcid=api_sd_search-api-endpoint",
+                                "@ref": "scidir",
+                                "@type": null
+                            }
+                        ],
+                        "prism:url": "https://api.elsevier.com/content/article/pii/S1877042813003777",
+                        "dc:identifier": "DOI:10.1016/j.sbspro.2013.02.084",
+                        "openaccess": "true",
+                        "openaccessFlag": null,
+                        "dc:title": "Extraction of Rules based on Students’ Questionnaires",
+                        "prism:publicationName": "Procedia - Social and Behavioral Sciences",
+                        "prism:isbn": null,
+                        "prism:issn": null,
+                        "prism:volume": "73",
+                        "prism:issueIdentifier": null,
+                        "prism:issueName": null,
+                        "prism:edition": null,
+                        "prism:startingPage": "510",
+                        "prism:endingPage": "517",
+                        "prism:coverDate": "2013-02-27",
+                        "prism:coverDisplayDate": null,
+                        "dc:creator": "Manolis Chalaris",
+                        "authors": {
+                            "author": [
+                                {
+                                    "$": "Manolis Chalaris"
+                                },
+                                {
+                                    "$": "Ioannis Chalaris"
+                                },
+                                {
+                                    "$": "Christos Skourlas"
+                                },
+                                {
+                                    "$": "Anastasios Tsolakidis"
+                                }
+                            ]
+                        },
+                        "prism:doi": "10.1016/j.sbspro.2013.02.084",
+                        "pii": "S1877042813003777",
+                        "pubType": null,
+                        "prism:teaser": null,
+                        "dc:description": null,
+                        "authkeywords": null,
+                        "prism:aggregationType": null,
+                        "prism:copyright": null,
+                        "scopus-id": null,
+                        "eid": null,
+                        "scopus-eid": null,
+                        "pubmed-id": null,
+                        "openaccessArticle": null,
+                        "openArchiveArticle": null,
+                        "openaccessUserLicense": null
+                    },
+                    {
+                        "@force-array": null,
+                        "error": null,
+                        "@_fa": "true",
+                        "load-date": "2014-09-29T00:00:00Z",
+                        "link": [
+                            {
+                                "@_fa": "true",
+                                "@href": "https://api.elsevier.com/content/article/pii/S1877042814040282",
+                                "@ref": "self",
+                                "@type": null
+                            },
+                            {
+                                "@_fa": "true",
+                                "@href": "https://www.sciencedirect.com/science/article/pii/S1877042814040282?dgcid=api_sd_search-api-endpoint",
+                                "@ref": "scidir",
+                                "@type": null
+                            }
+                        ],
+                        "prism:url": "https://api.elsevier.com/content/article/pii/S1877042814040282",
+                        "dc:identifier": "DOI:10.1016/j.sbspro.2014.07.117",
+                        "openaccess": "true",
+                        "openaccessFlag": null,
+                        "dc:title": "Improving Quality of Educational Processes Providing New Knowledge Using Data Mining Techniques",
+                        "prism:publicationName": "Procedia - Social and Behavioral Sciences",
+                        "prism:isbn": null,
+                        "prism:issn": null,
+                        "prism:volume": "147",
+                        "prism:issueIdentifier": null,
+                        "prism:issueName": null,
+                        "prism:edition": null,
+                        "prism:startingPage": "390",
+                        "prism:endingPage": "397",
+                        "prism:coverDate": "2014-08-25",
+                        "prism:coverDisplayDate": null,
+                        "dc:creator": "Manolis Chalaris",
+                        "authors": {
+                            "author": [
+                                {
+                                    "$": "Manolis Chalaris"
+                                },
+                                {
+                                    "$": "Stefanos Gritzalis"
+                                },
+                                {
+                                    "$": "Manolis Maragoudakis"
+                                },
+                                {
+                                    "$": "Cleo Sgouropoulou"
+                                },
+                                {
+                                    "$": "Anastasios Tsolakidis"
+                                }
+                            ]
+                        },
+                        "prism:doi": "10.1016/j.sbspro.2014.07.117",
+                        "pii": "S1877042814040282",
+                        "pubType": null,
+                        "prism:teaser": null,
+                        "dc:description": null,
+                        "authkeywords": null,
+                        "prism:aggregationType": null,
+                        "prism:copyright": null,
+                        "scopus-id": null,
+                        "eid": null,
+                        "scopus-eid": null,
+                        "pubmed-id": null,
+                        "openaccessArticle": null,
+                        "openArchiveArticle": null,
+                        "openaccessUserLicense": null
+                    }
+                ]
+            }
+        }
+    ]
+}

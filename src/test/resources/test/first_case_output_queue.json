@@ -1,0 +1,3595 @@
+{
+  "transactionId": "1e321095-0ef1-4fda-92e8-9eaf61c3ac76",
+  "exceptionMessage": null,
+  "sciDirResultsDto": {
+    "operation-result": true,
+    "process-finished-date": "2019-04-16T11:45:01.408Z",
+    "requested-elsevier-sciencedirect-consumer-dto": {
+      "firstname": "Grammati",
+      "initials": "",
+      "surname": "Pantziou"
+    },
+    "fetched-results-size": 3,
+    "fetched-results": [
+      {
+        "search-results": {
+          "opensearch:totalResults": "17",
+          "opensearch:startIndex": "0",
+          "opensearch:itemsPerPage": "17",
+          "opensearch:Query": {
+            "@role": "request",
+            "@searchTerms": "aus(Grammati Pantziou)",
+            "@startPage": "0"
+          },
+          "link": [
+            {
+              "@_fa": "true",
+              "@href": "https://api.elsevier.com/content/search/sciencedirect?start=0&count=25&query=aus%28Grammati+Pantziou%29&view=complete",
+              "@ref": "self",
+              "@type": "application/json"
+            },
+            {
+              "@_fa": "true",
+              "@href": "https://api.elsevier.com/content/search/sciencedirect?start=0&count=25&query=aus%28Grammati+Pantziou%29&view=complete",
+              "@ref": "first",
+              "@type": "application/json"
+            }
+          ],
+          "entry": [
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "1998-05-19T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S0304397597000492",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S0304397597000492?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S0304397597000492",
+              "dc:identifier": "DOI:10.1016/S0304-3975(97)00049-2",
+              "openaccess": "true",
+              "openaccessFlag": null,
+              "dc:title": "Many-to-many routing on trees via matchings",
+              "prism:publicationName": "Theoretical Computer Science",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "185",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "347",
+              "prism:endingPage": "377",
+              "prism:coverDate": "1997-10-20",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Grammati E. Pantziou",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Grammati E. Pantziou"
+                  },
+                  {
+                    "$": "Alan Roberts"
+                  },
+                  {
+                    "$": "Antonis Symvonis"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/S0304-3975(97)00049-2",
+              "pii": "S0304397597000492",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "2008-03-16T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S1389128608000923",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S1389128608000923?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S1389128608000923",
+              "dc:identifier": "DOI:10.1016/j.comnet.2008.01.018",
+              "openaccess": "false",
+              "openaccessFlag": null,
+              "dc:title": "Clustering in mobile ad hoc networks through neighborhood stability-based mobility prediction",
+              "prism:publicationName": "Computer Networks",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "52",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "1797",
+              "prism:endingPage": "1824",
+              "prism:coverDate": "2008-06-26",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Charalampos Konstantopoulos",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Charalampos Konstantopoulos"
+                  },
+                  {
+                    "$": "Damianos Gavalas"
+                  },
+                  {
+                    "$": "Grammati Pantziou"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/j.comnet.2008.01.018",
+              "pii": "S1389128608000923",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "2013-04-22T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S1084804513001094",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S1084804513001094?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S1084804513001094",
+              "dc:identifier": "DOI:10.1016/j.jnca.2013.04.006",
+              "openaccess": "false",
+              "openaccessFlag": null,
+              "dc:title": "Mobile recommender systems in tourism",
+              "prism:publicationName": "Journal of Network and Computer Applications",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "39",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "319",
+              "prism:endingPage": "333",
+              "prism:coverDate": "2014-03-31",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Damianos Gavalas",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Damianos Gavalas"
+                  },
+                  {
+                    "$": "Charalampos Konstantopoulos"
+                  },
+                  {
+                    "$": "Konstantinos Mastakas"
+                  },
+                  {
+                    "$": "Grammati Pantziou"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/j.jnca.2013.04.006",
+              "pii": "S1084804513001094",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "1998-06-18T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S0925772196000181",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S0925772196000181?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S0925772196000181",
+              "dc:identifier": "DOI:10.1016/S0925-7721(96)00018-1",
+              "openaccess": "true",
+              "openaccessFlag": null,
+              "dc:title": "A note on parallel algorithms for optimal h-v drawings of binary trees",
+              "prism:publicationName": "Computational Geometry",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "9",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "145",
+              "prism:endingPage": "158",
+              "prism:coverDate": "1998-02-28",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Panagiotis T. Metaxas",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Panagiotis T. Metaxas"
+                  },
+                  {
+                    "$": "Grammati E. Pantziou"
+                  },
+                  {
+                    "$": "Antonis Symvonis"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/S0925-7721(96)00018-1",
+              "pii": "S0925772196000181",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "2015-04-11T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S0305054815000817",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S0305054815000817?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S0305054815000817",
+              "dc:identifier": "DOI:10.1016/j.cor.2015.03.016",
+              "openaccess": "false",
+              "openaccessFlag": null,
+              "dc:title": "Heuristics for the time dependent team orienteering problem: Application to tourist route planning",
+              "prism:publicationName": "Computers & Operations Research",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "62",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "36",
+              "prism:endingPage": "50",
+              "prism:coverDate": "2015-10-31",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Damianos Gavalas",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Damianos Gavalas"
+                  },
+                  {
+                    "$": "Charalampos Konstantopoulos"
+                  },
+                  {
+                    "$": "Konstantinos Mastakas"
+                  },
+                  {
+                    "$": "Grammati Pantziou"
+                  },
+                  {
+                    "$": "Nikolaos Vathis"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/j.cor.2015.03.016",
+              "pii": "S0305054815000817",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "2014-10-16T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S002001901400218X",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S002001901400218X?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S002001901400218X",
+              "dc:identifier": "DOI:10.1016/j.ipl.2014.10.003",
+              "openaccess": "false",
+              "openaccessFlag": null,
+              "dc:title": "Approximation algorithms for the arc orienteering problem",
+              "prism:publicationName": "Information Processing Letters",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "115",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "313",
+              "prism:endingPage": "315",
+              "prism:coverDate": "2015-02-28",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Damianos Gavalas",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Damianos Gavalas"
+                  },
+                  {
+                    "$": "Charalampos Konstantopoulos"
+                  },
+                  {
+                    "$": "Konstantinos Mastakas"
+                  },
+                  {
+                    "$": "Grammati Pantziou"
+                  },
+                  {
+                    "$": "Nikolaos Vathis"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/j.ipl.2014.10.003",
+              "pii": "S002001901400218X",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "2018-02-13T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S1389128618300732",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S1389128618300732?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S1389128618300732",
+              "dc:identifier": "DOI:10.1016/j.comnet.2018.02.007",
+              "openaccess": "false",
+              "openaccessFlag": null,
+              "dc:title": "Employing mobile elements for delay-constrained data gathering in WSNs",
+              "prism:publicationName": "Computer Networks",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "135",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "108",
+              "prism:endingPage": "131",
+              "prism:coverDate": "2018-04-22",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Charalampos Konstantopoulos",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Charalampos Konstantopoulos"
+                  },
+                  {
+                    "$": "Nikolaos Vathis"
+                  },
+                  {
+                    "$": "Grammati Pantziou"
+                  },
+                  {
+                    "$": "Damianos Gavalas"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/j.comnet.2018.02.007",
+              "pii": "S1389128618300732",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "2016-08-30T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S108480451630193X",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S108480451630193X?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S108480451630193X",
+              "dc:identifier": "DOI:10.1016/j.jnca.2016.08.025",
+              "openaccess": "false",
+              "openaccessFlag": null,
+              "dc:title": "Efficient event handling in Wireless Sensor and Actor Networks: An on-line computation approach",
+              "prism:publicationName": "Journal of Network and Computer Applications",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "75",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "181",
+              "prism:endingPage": "199",
+              "prism:coverDate": "2016-11-30",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Charalampos Konstantopoulos",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Charalampos Konstantopoulos"
+                  },
+                  {
+                    "$": "Grammati Pantziou"
+                  },
+                  {
+                    "$": "Ioannis E. Venetis"
+                  },
+                  {
+                    "$": "Damianos Gavalas"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/j.jnca.2016.08.025",
+              "pii": "S108480451630193X",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "2010-08-04T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S1084804510001396",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S1084804510001396?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S1084804510001396",
+              "dc:identifier": "DOI:10.1016/j.jnca.2010.07.017",
+              "openaccess": "false",
+              "openaccessFlag": null,
+              "dc:title": "A pervasive assistive environment for visually impaired people using wireless sensor network infrastructure",
+              "prism:publicationName": "Journal of Network and Computer Applications",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "34",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "194",
+              "prism:endingPage": "206",
+              "prism:coverDate": "2011-01-31",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Aristides Mpitziopoulos",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Aristides Mpitziopoulos"
+                  },
+                  {
+                    "$": "Charalampos Konstantopoulos"
+                  },
+                  {
+                    "$": "Damianos Gavalas"
+                  },
+                  {
+                    "$": "Grammati Pantziou"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/j.jnca.2010.07.017",
+              "pii": "S1084804510001396",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "2018-10-30T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S0968090X18315262",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S0968090X18315262?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S0968090X18315262",
+              "dc:identifier": "DOI:10.1016/j.trc.2018.10.016",
+              "openaccess": "false",
+              "openaccessFlag": null,
+              "dc:title": "Incentivized vehicle relocation in vehicle sharing systems",
+              "prism:publicationName": "Transportation Research Part C: Emerging Technologies",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "97",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "175",
+              "prism:endingPage": "193",
+              "prism:coverDate": "2018-12-31",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Alexandros Angelopoulos",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Alexandros Angelopoulos"
+                  },
+                  {
+                    "$": "Damianos Gavalas"
+                  },
+                  {
+                    "$": "Charalampos Konstantopoulos"
+                  },
+                  {
+                    "$": "Damianos Kypriadis"
+                  },
+                  {
+                    "$": "Grammati Pantziou"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/j.trc.2018.10.016",
+              "pii": "S0968090X18315262",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "2002-05-06T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S0166218X02002330",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S0166218X02002330?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S0166218X02002330",
+              "dc:identifier": "DOI:10.1016/S0166-218X(02)00233-0",
+              "openaccess": "true",
+              "openaccessFlag": null,
+              "dc:title": "Competitive video on demand schedulers for popular movies",
+              "prism:publicationName": "Discrete Applied Mathematics",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "129",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "49",
+              "prism:endingPage": "61",
+              "prism:coverDate": "2003-06-15",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Christos Bouras",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Christos Bouras"
+                  },
+                  {
+                    "$": "Vaggelis Kapoulas"
+                  },
+                  {
+                    "$": "Grammati Pantziou"
+                  },
+                  {
+                    "$": "Paul Spirakis"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/S0166-218X(02)00233-0",
+              "pii": "S0166218X02002330",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "2008-06-24T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S157411920800062X",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S157411920800062X?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S157411920800062X",
+              "dc:identifier": "DOI:10.1016/j.pmcj.2008.06.001",
+              "openaccess": "false",
+              "openaccessFlag": null,
+              "dc:title": "JAID: An algorithm for data fusion and jamming avoidance on distributed sensor networks",
+              "prism:publicationName": "Pervasive and Mobile Computing",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "5",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "135",
+              "prism:endingPage": "147",
+              "prism:coverDate": "2009-04-30",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Aristides Mpitziopoulos",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Aristides Mpitziopoulos"
+                  },
+                  {
+                    "$": "Damianos Gavalas"
+                  },
+                  {
+                    "$": "Charalampos Konstantopoulos"
+                  },
+                  {
+                    "$": "Grammati Pantziou"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/j.pmcj.2008.06.001",
+              "pii": "S157411920800062X",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "2015-06-01T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S0957417415003826",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S0957417415003826?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S0957417415003826",
+              "dc:identifier": "DOI:10.1016/j.eswa.2015.05.046",
+              "openaccess": "false",
+              "openaccessFlag": null,
+              "dc:title": "The eCOMPASS multimodal tourist tour planner",
+              "prism:publicationName": "Expert Systems with Applications",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "42",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "7303",
+              "prism:endingPage": "7316",
+              "prism:coverDate": "2015-11-30",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Damianos Gavalas",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Damianos Gavalas"
+                  },
+                  {
+                    "$": "Vlasios Kasapakis"
+                  },
+                  {
+                    "$": "Charalampos Konstantopoulos"
+                  },
+                  {
+                    "$": "Grammati Pantziou"
+                  },
+                  {
+                    "$": "Christos Zaroliagis"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/j.eswa.2015.05.046",
+              "pii": "S0957417415003826",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "1998-05-19T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S0304397596002745",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S0304397596002745?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S0304397596002745",
+              "dc:identifier": "DOI:10.1016/S0304-3975(96)00274-5",
+              "openaccess": "true",
+              "openaccessFlag": null,
+              "dc:title": "Parallel algorithms for the minimum cut and the minimum length tree layout problems",
+              "prism:publicationName": "Theoretical Computer Science",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "181",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "267",
+              "prism:endingPage": "287",
+              "prism:coverDate": "1997-07-30",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Josep DÃÂ­az",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Josep DÃÂ­az"
+                  },
+                  {
+                    "$": "Alan Gibbons"
+                  },
+                  {
+                    "$": "Grammati E. Pantziou"
+                  },
+                  {
+                    "$": "Maria J. Serna"
+                  },
+                  {
+                    "$": "Jacobo Toran"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/S0304-3975(96)00274-5",
+              "pii": "S0304397596002745",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "2017-07-19T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S0305054817301934",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S0305054817301934?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S0305054817301934",
+              "dc:identifier": "DOI:10.1016/j.cor.2017.07.010",
+              "openaccess": "false",
+              "openaccessFlag": null,
+              "dc:title": "Minimizing the fuel consumption and the risk in maritime transportation: A bi-objective weather routing approach",
+              "prism:publicationName": "Computers & Operations Research",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "88",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "220",
+              "prism:endingPage": "236",
+              "prism:coverDate": "2017-12-31",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Aphrodite Veneti",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Aphrodite Veneti"
+                  },
+                  {
+                    "$": "Angelos Makrygiorgos"
+                  },
+                  {
+                    "$": "Charalampos Konstantopoulos"
+                  },
+                  {
+                    "$": "Grammati Pantziou"
+                  },
+                  {
+                    "$": "Ioannis A. Vetsikas"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/j.cor.2017.07.010",
+              "pii": "S0305054817301934",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "1999-12-22T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/0304397595000563",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/0304397595000563?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/0304397595000563",
+              "dc:identifier": "DOI:10.1016/0304-3975(95)00056-3",
+              "openaccess": "true",
+              "openaccessFlag": null,
+              "dc:title": "The fourth moment in Luby's distribution",
+              "prism:publicationName": "Theoretical Computer Science",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "148",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "133",
+              "prism:endingPage": "140",
+              "prism:coverDate": "1995-08-21",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Devdatt P. Dubhashi",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Devdatt P. Dubhashi"
+                  },
+                  {
+                    "$": "Grammati E. Pantziou"
+                  },
+                  {
+                    "$": "Paul G. Spirakis"
+                  },
+                  {
+                    "$": "Christos D. Zaroliagis"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/0304-3975(95)00056-3",
+              "pii": "0304397595000563",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "1999-02-16T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S0304397596000655",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S0304397596000655?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S0304397596000655",
+              "dc:identifier": "DOI:10.1016/S0304-3975(96)00065-5",
+              "openaccess": "true",
+              "openaccessFlag": null,
+              "dc:title": "Hammock-on-ears decomposition: A technique for the efficient parallel solution of shortest paths and other problems",
+              "prism:publicationName": "Theoretical Computer Science",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "168",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "121",
+              "prism:endingPage": "154",
+              "prism:coverDate": "1996-11-10",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Dimitris J. Kavvadias",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Dimitris J. Kavvadias"
+                  },
+                  {
+                    "$": "Grammati E. Pantziou"
+                  },
+                  {
+                    "$": "Paul G. Spirakis"
+                  },
+                  {
+                    "$": "Christos D. Zaroliagis"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/S0304-3975(96)00065-5",
+              "pii": "S0304397596000655",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            }
+          ]
+        }
+      },
+      {
+        "search-results": {
+          "opensearch:totalResults": "17",
+          "opensearch:startIndex": "0",
+          "opensearch:itemsPerPage": "17",
+          "opensearch:Query": {
+            "@role": "request",
+            "@searchTerms": "aut(Grammati Pantziou)",
+            "@startPage": "0"
+          },
+          "link": [
+            {
+              "@_fa": "true",
+              "@href": "https://api.elsevier.com/content/search/sciencedirect?start=0&count=25&query=aut%28Grammati+Pantziou%29&view=complete",
+              "@ref": "self",
+              "@type": "application/json"
+            },
+            {
+              "@_fa": "true",
+              "@href": "https://api.elsevier.com/content/search/sciencedirect?start=0&count=25&query=aut%28Grammati+Pantziou%29&view=complete",
+              "@ref": "first",
+              "@type": "application/json"
+            }
+          ],
+          "entry": [
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "1998-05-19T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S0304397597000492",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S0304397597000492?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S0304397597000492",
+              "dc:identifier": "DOI:10.1016/S0304-3975(97)00049-2",
+              "openaccess": "true",
+              "openaccessFlag": null,
+              "dc:title": "Many-to-many routing on trees via matchings",
+              "prism:publicationName": "Theoretical Computer Science",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "185",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "347",
+              "prism:endingPage": "377",
+              "prism:coverDate": "1997-10-20",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Grammati E. Pantziou",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Grammati E. Pantziou"
+                  },
+                  {
+                    "$": "Alan Roberts"
+                  },
+                  {
+                    "$": "Antonis Symvonis"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/S0304-3975(97)00049-2",
+              "pii": "S0304397597000492",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "2008-03-16T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S1389128608000923",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S1389128608000923?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S1389128608000923",
+              "dc:identifier": "DOI:10.1016/j.comnet.2008.01.018",
+              "openaccess": "false",
+              "openaccessFlag": null,
+              "dc:title": "Clustering in mobile ad hoc networks through neighborhood stability-based mobility prediction",
+              "prism:publicationName": "Computer Networks",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "52",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "1797",
+              "prism:endingPage": "1824",
+              "prism:coverDate": "2008-06-26",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Charalampos Konstantopoulos",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Charalampos Konstantopoulos"
+                  },
+                  {
+                    "$": "Damianos Gavalas"
+                  },
+                  {
+                    "$": "Grammati Pantziou"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/j.comnet.2008.01.018",
+              "pii": "S1389128608000923",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "2013-04-22T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S1084804513001094",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S1084804513001094?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S1084804513001094",
+              "dc:identifier": "DOI:10.1016/j.jnca.2013.04.006",
+              "openaccess": "false",
+              "openaccessFlag": null,
+              "dc:title": "Mobile recommender systems in tourism",
+              "prism:publicationName": "Journal of Network and Computer Applications",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "39",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "319",
+              "prism:endingPage": "333",
+              "prism:coverDate": "2014-03-31",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Damianos Gavalas",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Damianos Gavalas"
+                  },
+                  {
+                    "$": "Charalampos Konstantopoulos"
+                  },
+                  {
+                    "$": "Konstantinos Mastakas"
+                  },
+                  {
+                    "$": "Grammati Pantziou"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/j.jnca.2013.04.006",
+              "pii": "S1084804513001094",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "1998-06-18T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S0925772196000181",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S0925772196000181?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S0925772196000181",
+              "dc:identifier": "DOI:10.1016/S0925-7721(96)00018-1",
+              "openaccess": "true",
+              "openaccessFlag": null,
+              "dc:title": "A note on parallel algorithms for optimal h-v drawings of binary trees",
+              "prism:publicationName": "Computational Geometry",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "9",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "145",
+              "prism:endingPage": "158",
+              "prism:coverDate": "1998-02-28",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Panagiotis T. Metaxas",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Panagiotis T. Metaxas"
+                  },
+                  {
+                    "$": "Grammati E. Pantziou"
+                  },
+                  {
+                    "$": "Antonis Symvonis"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/S0925-7721(96)00018-1",
+              "pii": "S0925772196000181",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "2015-04-11T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S0305054815000817",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S0305054815000817?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S0305054815000817",
+              "dc:identifier": "DOI:10.1016/j.cor.2015.03.016",
+              "openaccess": "false",
+              "openaccessFlag": null,
+              "dc:title": "Heuristics for the time dependent team orienteering problem: Application to tourist route planning",
+              "prism:publicationName": "Computers & Operations Research",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "62",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "36",
+              "prism:endingPage": "50",
+              "prism:coverDate": "2015-10-31",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Damianos Gavalas",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Damianos Gavalas"
+                  },
+                  {
+                    "$": "Charalampos Konstantopoulos"
+                  },
+                  {
+                    "$": "Konstantinos Mastakas"
+                  },
+                  {
+                    "$": "Grammati Pantziou"
+                  },
+                  {
+                    "$": "Nikolaos Vathis"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/j.cor.2015.03.016",
+              "pii": "S0305054815000817",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "2014-10-16T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S002001901400218X",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S002001901400218X?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S002001901400218X",
+              "dc:identifier": "DOI:10.1016/j.ipl.2014.10.003",
+              "openaccess": "false",
+              "openaccessFlag": null,
+              "dc:title": "Approximation algorithms for the arc orienteering problem",
+              "prism:publicationName": "Information Processing Letters",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "115",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "313",
+              "prism:endingPage": "315",
+              "prism:coverDate": "2015-02-28",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Damianos Gavalas",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Damianos Gavalas"
+                  },
+                  {
+                    "$": "Charalampos Konstantopoulos"
+                  },
+                  {
+                    "$": "Konstantinos Mastakas"
+                  },
+                  {
+                    "$": "Grammati Pantziou"
+                  },
+                  {
+                    "$": "Nikolaos Vathis"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/j.ipl.2014.10.003",
+              "pii": "S002001901400218X",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "2018-02-13T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S1389128618300732",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S1389128618300732?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S1389128618300732",
+              "dc:identifier": "DOI:10.1016/j.comnet.2018.02.007",
+              "openaccess": "false",
+              "openaccessFlag": null,
+              "dc:title": "Employing mobile elements for delay-constrained data gathering in WSNs",
+              "prism:publicationName": "Computer Networks",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "135",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "108",
+              "prism:endingPage": "131",
+              "prism:coverDate": "2018-04-22",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Charalampos Konstantopoulos",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Charalampos Konstantopoulos"
+                  },
+                  {
+                    "$": "Nikolaos Vathis"
+                  },
+                  {
+                    "$": "Grammati Pantziou"
+                  },
+                  {
+                    "$": "Damianos Gavalas"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/j.comnet.2018.02.007",
+              "pii": "S1389128618300732",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "2016-08-30T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S108480451630193X",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S108480451630193X?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S108480451630193X",
+              "dc:identifier": "DOI:10.1016/j.jnca.2016.08.025",
+              "openaccess": "false",
+              "openaccessFlag": null,
+              "dc:title": "Efficient event handling in Wireless Sensor and Actor Networks: An on-line computation approach",
+              "prism:publicationName": "Journal of Network and Computer Applications",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "75",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "181",
+              "prism:endingPage": "199",
+              "prism:coverDate": "2016-11-30",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Charalampos Konstantopoulos",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Charalampos Konstantopoulos"
+                  },
+                  {
+                    "$": "Grammati Pantziou"
+                  },
+                  {
+                    "$": "Ioannis E. Venetis"
+                  },
+                  {
+                    "$": "Damianos Gavalas"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/j.jnca.2016.08.025",
+              "pii": "S108480451630193X",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "2010-08-04T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S1084804510001396",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S1084804510001396?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S1084804510001396",
+              "dc:identifier": "DOI:10.1016/j.jnca.2010.07.017",
+              "openaccess": "false",
+              "openaccessFlag": null,
+              "dc:title": "A pervasive assistive environment for visually impaired people using wireless sensor network infrastructure",
+              "prism:publicationName": "Journal of Network and Computer Applications",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "34",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "194",
+              "prism:endingPage": "206",
+              "prism:coverDate": "2011-01-31",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Aristides Mpitziopoulos",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Aristides Mpitziopoulos"
+                  },
+                  {
+                    "$": "Charalampos Konstantopoulos"
+                  },
+                  {
+                    "$": "Damianos Gavalas"
+                  },
+                  {
+                    "$": "Grammati Pantziou"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/j.jnca.2010.07.017",
+              "pii": "S1084804510001396",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "2018-10-30T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S0968090X18315262",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S0968090X18315262?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S0968090X18315262",
+              "dc:identifier": "DOI:10.1016/j.trc.2018.10.016",
+              "openaccess": "false",
+              "openaccessFlag": null,
+              "dc:title": "Incentivized vehicle relocation in vehicle sharing systems",
+              "prism:publicationName": "Transportation Research Part C: Emerging Technologies",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "97",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "175",
+              "prism:endingPage": "193",
+              "prism:coverDate": "2018-12-31",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Alexandros Angelopoulos",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Alexandros Angelopoulos"
+                  },
+                  {
+                    "$": "Damianos Gavalas"
+                  },
+                  {
+                    "$": "Charalampos Konstantopoulos"
+                  },
+                  {
+                    "$": "Damianos Kypriadis"
+                  },
+                  {
+                    "$": "Grammati Pantziou"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/j.trc.2018.10.016",
+              "pii": "S0968090X18315262",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "2002-05-06T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S0166218X02002330",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S0166218X02002330?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S0166218X02002330",
+              "dc:identifier": "DOI:10.1016/S0166-218X(02)00233-0",
+              "openaccess": "true",
+              "openaccessFlag": null,
+              "dc:title": "Competitive video on demand schedulers for popular movies",
+              "prism:publicationName": "Discrete Applied Mathematics",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "129",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "49",
+              "prism:endingPage": "61",
+              "prism:coverDate": "2003-06-15",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Christos Bouras",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Christos Bouras"
+                  },
+                  {
+                    "$": "Vaggelis Kapoulas"
+                  },
+                  {
+                    "$": "Grammati Pantziou"
+                  },
+                  {
+                    "$": "Paul Spirakis"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/S0166-218X(02)00233-0",
+              "pii": "S0166218X02002330",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "2008-06-24T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S157411920800062X",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S157411920800062X?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S157411920800062X",
+              "dc:identifier": "DOI:10.1016/j.pmcj.2008.06.001",
+              "openaccess": "false",
+              "openaccessFlag": null,
+              "dc:title": "JAID: An algorithm for data fusion and jamming avoidance on distributed sensor networks",
+              "prism:publicationName": "Pervasive and Mobile Computing",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "5",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "135",
+              "prism:endingPage": "147",
+              "prism:coverDate": "2009-04-30",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Aristides Mpitziopoulos",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Aristides Mpitziopoulos"
+                  },
+                  {
+                    "$": "Damianos Gavalas"
+                  },
+                  {
+                    "$": "Charalampos Konstantopoulos"
+                  },
+                  {
+                    "$": "Grammati Pantziou"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/j.pmcj.2008.06.001",
+              "pii": "S157411920800062X",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "2015-06-01T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S0957417415003826",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S0957417415003826?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S0957417415003826",
+              "dc:identifier": "DOI:10.1016/j.eswa.2015.05.046",
+              "openaccess": "false",
+              "openaccessFlag": null,
+              "dc:title": "The eCOMPASS multimodal tourist tour planner",
+              "prism:publicationName": "Expert Systems with Applications",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "42",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "7303",
+              "prism:endingPage": "7316",
+              "prism:coverDate": "2015-11-30",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Damianos Gavalas",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Damianos Gavalas"
+                  },
+                  {
+                    "$": "Vlasios Kasapakis"
+                  },
+                  {
+                    "$": "Charalampos Konstantopoulos"
+                  },
+                  {
+                    "$": "Grammati Pantziou"
+                  },
+                  {
+                    "$": "Christos Zaroliagis"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/j.eswa.2015.05.046",
+              "pii": "S0957417415003826",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "1998-05-19T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S0304397596002745",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S0304397596002745?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S0304397596002745",
+              "dc:identifier": "DOI:10.1016/S0304-3975(96)00274-5",
+              "openaccess": "true",
+              "openaccessFlag": null,
+              "dc:title": "Parallel algorithms for the minimum cut and the minimum length tree layout problems",
+              "prism:publicationName": "Theoretical Computer Science",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "181",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "267",
+              "prism:endingPage": "287",
+              "prism:coverDate": "1997-07-30",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Josep DÃÂ­az",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Josep DÃÂ­az"
+                  },
+                  {
+                    "$": "Alan Gibbons"
+                  },
+                  {
+                    "$": "Grammati E. Pantziou"
+                  },
+                  {
+                    "$": "Maria J. Serna"
+                  },
+                  {
+                    "$": "Jacobo Toran"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/S0304-3975(96)00274-5",
+              "pii": "S0304397596002745",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "2017-07-19T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S0305054817301934",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S0305054817301934?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S0305054817301934",
+              "dc:identifier": "DOI:10.1016/j.cor.2017.07.010",
+              "openaccess": "false",
+              "openaccessFlag": null,
+              "dc:title": "Minimizing the fuel consumption and the risk in maritime transportation: A bi-objective weather routing approach",
+              "prism:publicationName": "Computers & Operations Research",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "88",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "220",
+              "prism:endingPage": "236",
+              "prism:coverDate": "2017-12-31",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Aphrodite Veneti",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Aphrodite Veneti"
+                  },
+                  {
+                    "$": "Angelos Makrygiorgos"
+                  },
+                  {
+                    "$": "Charalampos Konstantopoulos"
+                  },
+                  {
+                    "$": "Grammati Pantziou"
+                  },
+                  {
+                    "$": "Ioannis A. Vetsikas"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/j.cor.2017.07.010",
+              "pii": "S0305054817301934",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "1999-12-22T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/0304397595000563",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/0304397595000563?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/0304397595000563",
+              "dc:identifier": "DOI:10.1016/0304-3975(95)00056-3",
+              "openaccess": "true",
+              "openaccessFlag": null,
+              "dc:title": "The fourth moment in Luby's distribution",
+              "prism:publicationName": "Theoretical Computer Science",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "148",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "133",
+              "prism:endingPage": "140",
+              "prism:coverDate": "1995-08-21",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Devdatt P. Dubhashi",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Devdatt P. Dubhashi"
+                  },
+                  {
+                    "$": "Grammati E. Pantziou"
+                  },
+                  {
+                    "$": "Paul G. Spirakis"
+                  },
+                  {
+                    "$": "Christos D. Zaroliagis"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/0304-3975(95)00056-3",
+              "pii": "0304397595000563",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "1999-02-16T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S0304397596000655",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S0304397596000655?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S0304397596000655",
+              "dc:identifier": "DOI:10.1016/S0304-3975(96)00065-5",
+              "openaccess": "true",
+              "openaccessFlag": null,
+              "dc:title": "Hammock-on-ears decomposition: A technique for the efficient parallel solution of shortest paths and other problems",
+              "prism:publicationName": "Theoretical Computer Science",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "168",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "121",
+              "prism:endingPage": "154",
+              "prism:coverDate": "1996-11-10",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Dimitris J. Kavvadias",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Dimitris J. Kavvadias"
+                  },
+                  {
+                    "$": "Grammati E. Pantziou"
+                  },
+                  {
+                    "$": "Paul G. Spirakis"
+                  },
+                  {
+                    "$": "Christos D. Zaroliagis"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/S0304-3975(96)00065-5",
+              "pii": "S0304397596000655",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            }
+          ]
+        }
+      },
+      {
+        "search-results": {
+          "opensearch:totalResults": "17",
+          "opensearch:startIndex": "0",
+          "opensearch:itemsPerPage": "17",
+          "opensearch:Query": {
+            "@role": "request",
+            "@searchTerms": "specific-author(Grammati Pantziou)",
+            "@startPage": "0"
+          },
+          "link": [
+            {
+              "@_fa": "true",
+              "@href": "https://api.elsevier.com/content/search/sciencedirect?start=0&count=25&query=specific-author%28Grammati+Pantziou%29&view=complete",
+              "@ref": "self",
+              "@type": "application/json"
+            },
+            {
+              "@_fa": "true",
+              "@href": "https://api.elsevier.com/content/search/sciencedirect?start=0&count=25&query=specific-author%28Grammati+Pantziou%29&view=complete",
+              "@ref": "first",
+              "@type": "application/json"
+            }
+          ],
+          "entry": [
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "1998-05-19T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S0304397597000492",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S0304397597000492?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S0304397597000492",
+              "dc:identifier": "DOI:10.1016/S0304-3975(97)00049-2",
+              "openaccess": "true",
+              "openaccessFlag": null,
+              "dc:title": "Many-to-many routing on trees via matchings",
+              "prism:publicationName": "Theoretical Computer Science",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "185",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "347",
+              "prism:endingPage": "377",
+              "prism:coverDate": "1997-10-20",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Grammati E. Pantziou",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Grammati E. Pantziou"
+                  },
+                  {
+                    "$": "Alan Roberts"
+                  },
+                  {
+                    "$": "Antonis Symvonis"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/S0304-3975(97)00049-2",
+              "pii": "S0304397597000492",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "2008-03-16T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S1389128608000923",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S1389128608000923?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S1389128608000923",
+              "dc:identifier": "DOI:10.1016/j.comnet.2008.01.018",
+              "openaccess": "false",
+              "openaccessFlag": null,
+              "dc:title": "Clustering in mobile ad hoc networks through neighborhood stability-based mobility prediction",
+              "prism:publicationName": "Computer Networks",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "52",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "1797",
+              "prism:endingPage": "1824",
+              "prism:coverDate": "2008-06-26",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Charalampos Konstantopoulos",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Charalampos Konstantopoulos"
+                  },
+                  {
+                    "$": "Damianos Gavalas"
+                  },
+                  {
+                    "$": "Grammati Pantziou"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/j.comnet.2008.01.018",
+              "pii": "S1389128608000923",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "2013-04-22T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S1084804513001094",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S1084804513001094?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S1084804513001094",
+              "dc:identifier": "DOI:10.1016/j.jnca.2013.04.006",
+              "openaccess": "false",
+              "openaccessFlag": null,
+              "dc:title": "Mobile recommender systems in tourism",
+              "prism:publicationName": "Journal of Network and Computer Applications",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "39",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "319",
+              "prism:endingPage": "333",
+              "prism:coverDate": "2014-03-31",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Damianos Gavalas",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Damianos Gavalas"
+                  },
+                  {
+                    "$": "Charalampos Konstantopoulos"
+                  },
+                  {
+                    "$": "Konstantinos Mastakas"
+                  },
+                  {
+                    "$": "Grammati Pantziou"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/j.jnca.2013.04.006",
+              "pii": "S1084804513001094",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "1998-06-18T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S0925772196000181",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S0925772196000181?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S0925772196000181",
+              "dc:identifier": "DOI:10.1016/S0925-7721(96)00018-1",
+              "openaccess": "true",
+              "openaccessFlag": null,
+              "dc:title": "A note on parallel algorithms for optimal h-v drawings of binary trees",
+              "prism:publicationName": "Computational Geometry",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "9",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "145",
+              "prism:endingPage": "158",
+              "prism:coverDate": "1998-02-28",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Panagiotis T. Metaxas",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Panagiotis T. Metaxas"
+                  },
+                  {
+                    "$": "Grammati E. Pantziou"
+                  },
+                  {
+                    "$": "Antonis Symvonis"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/S0925-7721(96)00018-1",
+              "pii": "S0925772196000181",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "2015-04-11T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S0305054815000817",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S0305054815000817?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S0305054815000817",
+              "dc:identifier": "DOI:10.1016/j.cor.2015.03.016",
+              "openaccess": "false",
+              "openaccessFlag": null,
+              "dc:title": "Heuristics for the time dependent team orienteering problem: Application to tourist route planning",
+              "prism:publicationName": "Computers & Operations Research",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "62",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "36",
+              "prism:endingPage": "50",
+              "prism:coverDate": "2015-10-31",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Damianos Gavalas",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Damianos Gavalas"
+                  },
+                  {
+                    "$": "Charalampos Konstantopoulos"
+                  },
+                  {
+                    "$": "Konstantinos Mastakas"
+                  },
+                  {
+                    "$": "Grammati Pantziou"
+                  },
+                  {
+                    "$": "Nikolaos Vathis"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/j.cor.2015.03.016",
+              "pii": "S0305054815000817",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "2014-10-16T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S002001901400218X",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S002001901400218X?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S002001901400218X",
+              "dc:identifier": "DOI:10.1016/j.ipl.2014.10.003",
+              "openaccess": "false",
+              "openaccessFlag": null,
+              "dc:title": "Approximation algorithms for the arc orienteering problem",
+              "prism:publicationName": "Information Processing Letters",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "115",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "313",
+              "prism:endingPage": "315",
+              "prism:coverDate": "2015-02-28",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Damianos Gavalas",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Damianos Gavalas"
+                  },
+                  {
+                    "$": "Charalampos Konstantopoulos"
+                  },
+                  {
+                    "$": "Konstantinos Mastakas"
+                  },
+                  {
+                    "$": "Grammati Pantziou"
+                  },
+                  {
+                    "$": "Nikolaos Vathis"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/j.ipl.2014.10.003",
+              "pii": "S002001901400218X",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "2018-02-13T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S1389128618300732",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S1389128618300732?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S1389128618300732",
+              "dc:identifier": "DOI:10.1016/j.comnet.2018.02.007",
+              "openaccess": "false",
+              "openaccessFlag": null,
+              "dc:title": "Employing mobile elements for delay-constrained data gathering in WSNs",
+              "prism:publicationName": "Computer Networks",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "135",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "108",
+              "prism:endingPage": "131",
+              "prism:coverDate": "2018-04-22",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Charalampos Konstantopoulos",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Charalampos Konstantopoulos"
+                  },
+                  {
+                    "$": "Nikolaos Vathis"
+                  },
+                  {
+                    "$": "Grammati Pantziou"
+                  },
+                  {
+                    "$": "Damianos Gavalas"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/j.comnet.2018.02.007",
+              "pii": "S1389128618300732",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "2016-08-30T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S108480451630193X",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S108480451630193X?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S108480451630193X",
+              "dc:identifier": "DOI:10.1016/j.jnca.2016.08.025",
+              "openaccess": "false",
+              "openaccessFlag": null,
+              "dc:title": "Efficient event handling in Wireless Sensor and Actor Networks: An on-line computation approach",
+              "prism:publicationName": "Journal of Network and Computer Applications",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "75",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "181",
+              "prism:endingPage": "199",
+              "prism:coverDate": "2016-11-30",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Charalampos Konstantopoulos",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Charalampos Konstantopoulos"
+                  },
+                  {
+                    "$": "Grammati Pantziou"
+                  },
+                  {
+                    "$": "Ioannis E. Venetis"
+                  },
+                  {
+                    "$": "Damianos Gavalas"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/j.jnca.2016.08.025",
+              "pii": "S108480451630193X",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "2010-08-04T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S1084804510001396",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S1084804510001396?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S1084804510001396",
+              "dc:identifier": "DOI:10.1016/j.jnca.2010.07.017",
+              "openaccess": "false",
+              "openaccessFlag": null,
+              "dc:title": "A pervasive assistive environment for visually impaired people using wireless sensor network infrastructure",
+              "prism:publicationName": "Journal of Network and Computer Applications",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "34",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "194",
+              "prism:endingPage": "206",
+              "prism:coverDate": "2011-01-31",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Aristides Mpitziopoulos",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Aristides Mpitziopoulos"
+                  },
+                  {
+                    "$": "Charalampos Konstantopoulos"
+                  },
+                  {
+                    "$": "Damianos Gavalas"
+                  },
+                  {
+                    "$": "Grammati Pantziou"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/j.jnca.2010.07.017",
+              "pii": "S1084804510001396",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "2018-10-30T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S0968090X18315262",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S0968090X18315262?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S0968090X18315262",
+              "dc:identifier": "DOI:10.1016/j.trc.2018.10.016",
+              "openaccess": "false",
+              "openaccessFlag": null,
+              "dc:title": "Incentivized vehicle relocation in vehicle sharing systems",
+              "prism:publicationName": "Transportation Research Part C: Emerging Technologies",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "97",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "175",
+              "prism:endingPage": "193",
+              "prism:coverDate": "2018-12-31",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Alexandros Angelopoulos",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Alexandros Angelopoulos"
+                  },
+                  {
+                    "$": "Damianos Gavalas"
+                  },
+                  {
+                    "$": "Charalampos Konstantopoulos"
+                  },
+                  {
+                    "$": "Damianos Kypriadis"
+                  },
+                  {
+                    "$": "Grammati Pantziou"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/j.trc.2018.10.016",
+              "pii": "S0968090X18315262",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "2002-05-06T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S0166218X02002330",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S0166218X02002330?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S0166218X02002330",
+              "dc:identifier": "DOI:10.1016/S0166-218X(02)00233-0",
+              "openaccess": "true",
+              "openaccessFlag": null,
+              "dc:title": "Competitive video on demand schedulers for popular movies",
+              "prism:publicationName": "Discrete Applied Mathematics",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "129",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "49",
+              "prism:endingPage": "61",
+              "prism:coverDate": "2003-06-15",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Christos Bouras",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Christos Bouras"
+                  },
+                  {
+                    "$": "Vaggelis Kapoulas"
+                  },
+                  {
+                    "$": "Grammati Pantziou"
+                  },
+                  {
+                    "$": "Paul Spirakis"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/S0166-218X(02)00233-0",
+              "pii": "S0166218X02002330",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "2008-06-24T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S157411920800062X",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S157411920800062X?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S157411920800062X",
+              "dc:identifier": "DOI:10.1016/j.pmcj.2008.06.001",
+              "openaccess": "false",
+              "openaccessFlag": null,
+              "dc:title": "JAID: An algorithm for data fusion and jamming avoidance on distributed sensor networks",
+              "prism:publicationName": "Pervasive and Mobile Computing",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "5",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "135",
+              "prism:endingPage": "147",
+              "prism:coverDate": "2009-04-30",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Aristides Mpitziopoulos",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Aristides Mpitziopoulos"
+                  },
+                  {
+                    "$": "Damianos Gavalas"
+                  },
+                  {
+                    "$": "Charalampos Konstantopoulos"
+                  },
+                  {
+                    "$": "Grammati Pantziou"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/j.pmcj.2008.06.001",
+              "pii": "S157411920800062X",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "2015-06-01T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S0957417415003826",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S0957417415003826?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S0957417415003826",
+              "dc:identifier": "DOI:10.1016/j.eswa.2015.05.046",
+              "openaccess": "false",
+              "openaccessFlag": null,
+              "dc:title": "The eCOMPASS multimodal tourist tour planner",
+              "prism:publicationName": "Expert Systems with Applications",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "42",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "7303",
+              "prism:endingPage": "7316",
+              "prism:coverDate": "2015-11-30",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Damianos Gavalas",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Damianos Gavalas"
+                  },
+                  {
+                    "$": "Vlasios Kasapakis"
+                  },
+                  {
+                    "$": "Charalampos Konstantopoulos"
+                  },
+                  {
+                    "$": "Grammati Pantziou"
+                  },
+                  {
+                    "$": "Christos Zaroliagis"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/j.eswa.2015.05.046",
+              "pii": "S0957417415003826",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "1998-05-19T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S0304397596002745",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S0304397596002745?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S0304397596002745",
+              "dc:identifier": "DOI:10.1016/S0304-3975(96)00274-5",
+              "openaccess": "true",
+              "openaccessFlag": null,
+              "dc:title": "Parallel algorithms for the minimum cut and the minimum length tree layout problems",
+              "prism:publicationName": "Theoretical Computer Science",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "181",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "267",
+              "prism:endingPage": "287",
+              "prism:coverDate": "1997-07-30",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Josep DÃÂ­az",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Josep DÃÂ­az"
+                  },
+                  {
+                    "$": "Alan Gibbons"
+                  },
+                  {
+                    "$": "Grammati E. Pantziou"
+                  },
+                  {
+                    "$": "Maria J. Serna"
+                  },
+                  {
+                    "$": "Jacobo Toran"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/S0304-3975(96)00274-5",
+              "pii": "S0304397596002745",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "2017-07-19T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S0305054817301934",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S0305054817301934?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S0305054817301934",
+              "dc:identifier": "DOI:10.1016/j.cor.2017.07.010",
+              "openaccess": "false",
+              "openaccessFlag": null,
+              "dc:title": "Minimizing the fuel consumption and the risk in maritime transportation: A bi-objective weather routing approach",
+              "prism:publicationName": "Computers & Operations Research",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "88",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "220",
+              "prism:endingPage": "236",
+              "prism:coverDate": "2017-12-31",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Aphrodite Veneti",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Aphrodite Veneti"
+                  },
+                  {
+                    "$": "Angelos Makrygiorgos"
+                  },
+                  {
+                    "$": "Charalampos Konstantopoulos"
+                  },
+                  {
+                    "$": "Grammati Pantziou"
+                  },
+                  {
+                    "$": "Ioannis A. Vetsikas"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/j.cor.2017.07.010",
+              "pii": "S0305054817301934",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "1999-12-22T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/0304397595000563",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/0304397595000563?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/0304397595000563",
+              "dc:identifier": "DOI:10.1016/0304-3975(95)00056-3",
+              "openaccess": "true",
+              "openaccessFlag": null,
+              "dc:title": "The fourth moment in Luby's distribution",
+              "prism:publicationName": "Theoretical Computer Science",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "148",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "133",
+              "prism:endingPage": "140",
+              "prism:coverDate": "1995-08-21",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Devdatt P. Dubhashi",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Devdatt P. Dubhashi"
+                  },
+                  {
+                    "$": "Grammati E. Pantziou"
+                  },
+                  {
+                    "$": "Paul G. Spirakis"
+                  },
+                  {
+                    "$": "Christos D. Zaroliagis"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/0304-3975(95)00056-3",
+              "pii": "0304397595000563",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            },
+            {
+              "@force-array": null,
+              "error": null,
+              "@_fa": "true",
+              "load-date": "1999-02-16T00:00:00Z",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@href": "https://api.elsevier.com/content/article/pii/S0304397596000655",
+                  "@ref": "self",
+                  "@type": null
+                },
+                {
+                  "@_fa": "true",
+                  "@href": "https://www.sciencedirect.com/science/article/pii/S0304397596000655?dgcid=api_sd_search-api-endpoint",
+                  "@ref": "scidir",
+                  "@type": null
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/article/pii/S0304397596000655",
+              "dc:identifier": "DOI:10.1016/S0304-3975(96)00065-5",
+              "openaccess": "true",
+              "openaccessFlag": null,
+              "dc:title": "Hammock-on-ears decomposition: A technique for the efficient parallel solution of shortest paths and other problems",
+              "prism:publicationName": "Theoretical Computer Science",
+              "prism:isbn": null,
+              "prism:issn": null,
+              "prism:volume": "168",
+              "prism:issueIdentifier": null,
+              "prism:issueName": null,
+              "prism:edition": null,
+              "prism:startingPage": "121",
+              "prism:endingPage": "154",
+              "prism:coverDate": "1996-11-10",
+              "prism:coverDisplayDate": null,
+              "dc:creator": "Dimitris J. Kavvadias",
+              "authors": {
+                "author": [
+                  {
+                    "$": "Dimitris J. Kavvadias"
+                  },
+                  {
+                    "$": "Grammati E. Pantziou"
+                  },
+                  {
+                    "$": "Paul G. Spirakis"
+                  },
+                  {
+                    "$": "Christos D. Zaroliagis"
+                  }
+                ]
+              },
+              "prism:doi": "10.1016/S0304-3975(96)00065-5",
+              "pii": "S0304397596000655",
+              "pubType": null,
+              "prism:teaser": null,
+              "dc:description": null,
+              "authkeywords": null,
+              "prism:aggregationType": null,
+              "prism:copyright": null,
+              "scopus-id": null,
+              "eid": null,
+              "scopus-eid": null,
+              "pubmed-id": null,
+              "openaccessArticle": null,
+              "openArchiveArticle": null,
+              "openaccessUserLicense": null
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

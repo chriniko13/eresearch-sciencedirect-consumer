@@ -1,0 +1,420 @@
+---------------------------------
+------  EXAMPLE REQUEST  --------
+---------------------------------
+
+http://api.elsevier.com/content/search/scidir?query=aus(anastasios tsolakidis)&view=complete&apikey=6fc2846192484205468e36a35a930f22
+
+
+---------------------------------
+------  EXAMPLE RESPONSE  -------
+---------------------------------
+
+{
+  "search-results": {
+    "opensearch:totalResults": "5",
+    "opensearch:startIndex": "0",
+    "opensearch:itemsPerPage": "5",
+    "opensearch:Query": {
+      "@role": "request",
+      "@searchTerms": "aus(anastasios tsolakidis)",
+      "@startPage": "0"
+    },
+    "link": [
+      {
+        "@_fa": "true",
+        "@href": "http://api.elsevier.com/content/search/scidir?start=0&count=25&query=aus%28anastasios+tsolakidis%29&view=complete&apikey=6fc2846192484205468e36a35a930f22",
+        "@ref": "self",
+        "@type": "application/json"
+      },
+      {
+        "@_fa": "true",
+        "@href": "http://api.elsevier.com/content/search/scidir?start=0&count=25&query=aus%28anastasios+tsolakidis%29&view=complete&apikey=6fc2846192484205468e36a35a930f22",
+        "@ref": "first",
+        "@type": "application/json"
+      }
+    ],
+    "entry": [
+      {
+        "@_fa": "true",
+        "link": [
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/article/pii/S002072921300177X",
+            "@ref": "self"
+          },
+          {
+            "@_fa": "true",
+            "@href": "http://www.sciencedirect.com/science/article/pii/S002072921300177X",
+            "@ref": "scidir"
+          },
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/abstract/scopus_id/84879786947",
+            "@ref": "abstract"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.ijgo.2013.03.004",
+        "eid": "1-s2.0-S002072921300177X",
+        "prism:url": "http://api.elsevier.com/content/article/pii/S002072921300177X",
+        "dc:title": "Uterine manifestations of tuberous sclerosis complex as a random finding at laparoscopy",
+        "dc:creator": "George, Pados",
+        "prism:publicationName": "International Journal of Gynecology & Obstetrics",
+        "prism:issn": "00207292",
+        "prism:volume": "122",
+        "prism:issueIdentifier": "2",
+        "prism:coverDate": [
+          {
+            "@_fa": "true",
+            "$": "2013-08-01"
+          }
+        ],
+        "prism:coverDisplayDate": "August 2013",
+        "prism:startingPage": "156",
+        "prism:endingPage": "157",
+        "prism:doi": "10.1016/j.ijgo.2013.03.004",
+        "openaccess": "0",
+        "openaccessArticle": false,
+        "openArchiveArticle": false,
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:copyright": "Copyright © 2013 International Federation of Gynecology and Obstetrics. Published by Elsevier Ireland Ltd. All rights reserved.",
+        "pubType": "Brief communication",
+        "pii": "S0020-7292(13)00177-X",
+        "authors": {
+          "author": [
+            {
+              "@_fa": "true",
+              "given-name": "George",
+              "surname": "Pados"
+            },
+            {
+              "@_fa": "true",
+              "given-name": "Anastasios",
+              "surname": "Makedos"
+            },
+            {
+              "@_fa": "true",
+              "given-name": "Dimitrios",
+              "surname": "Tsolakidis"
+            },
+            {
+              "@_fa": "true",
+              "given-name": "Basil",
+              "surname": "Tarlatzis"
+            }
+          ]
+        },
+        "authkeywords": "Laparoscopy | Lymphangiomyomatosis | Tuberous sclerosis complex | Uterus",
+        "scopus-id": "84879786947",
+        "scopus-eid": "2-s2.0-84879786947",
+        "pubmed-id": "23597862",
+        "prism:teaser": null
+      },
+      {
+        "@_fa": "true",
+        "link": [
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/article/pii/S1877042813003777",
+            "@ref": "self"
+          },
+          {
+            "@_fa": "true",
+            "@href": "http://www.sciencedirect.com/science/article/pii/S1877042813003777",
+            "@ref": "scidir"
+          },
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/abstract/scopus_id/84923046059",
+            "@ref": "abstract"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.sbspro.2013.02.084",
+        "eid": "1-s2.0-S1877042813003777",
+        "prism:url": "http://api.elsevier.com/content/article/pii/S1877042813003777",
+        "dc:title": "Extraction of Rules based on Students’ Questionnaires",
+        "dc:creator": "Manolis, Chalaris",
+        "dc:description": "Abstract There are many students in the Greek Higher Education that are still “lingering” in their Departments beyond the six years. The length of studies beyond 6 years has not been justified, and this study focuses on this problem. We also study another problem: The percentage of graduates scoring about 8.5/10 or more is extremely low. Association rules mining is a well known data analysis method for extracting associations between data in a wide range of different fields. In this paper, we focus on the generation of the appropriate association rules based on students’ questionnaires in Higher Education. A sample of 50.000 questionnaires was filled by 10.000 students in the TEI of Athens. Various interesting rules could be extracted related to learning goals, practices, years required for graduation, etc. These rules and clustering techniques could be used for solving the problem of the students that are still “lingering”, and the problem of the low “scoring” of the graduates.",
+        "prism:publicationName": "Procedia - Social and Behavioral Sciences",
+        "prism:issueName": "Proceedings of the 2nd International Conference on Integrated Information (IC-ININFO 2012), Budapest, Hungary, August 30 – September 3, 2012",
+        "prism:issn": "18770428",
+        "prism:volume": "73",
+        "prism:issueIdentifier": null,
+        "prism:coverDate": [
+          {
+            "@_fa": "true",
+            "$": "2013-02-27"
+          }
+        ],
+        "prism:coverDisplayDate": "27 February 2013",
+        "prism:startingPage": "510",
+        "prism:endingPage": "517",
+        "prism:doi": "10.1016/j.sbspro.2013.02.084",
+        "openaccess": "1",
+        "openaccessArticle": true,
+        "openArchiveArticle": false,
+        "openaccessUserLicense": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+        "prism:aggregationType": "Journal",
+        "prism:copyright": "Copyright © 2013 The Authors. Published by Elsevier Ltd.",
+        "pii": "S1877-0428(13)00377-7",
+        "authors": {
+          "author": [
+            {
+              "@_fa": "true",
+              "given-name": "Manolis",
+              "surname": "Chalaris"
+            },
+            {
+              "@_fa": "true",
+              "given-name": "Ioannis",
+              "surname": "Chalaris"
+            },
+            {
+              "@_fa": "true",
+              "given-name": "Christos",
+              "surname": "Skourlas"
+            },
+            {
+              "@_fa": "true",
+              "given-name": "Anastasios",
+              "surname": "Tsolakidis"
+            }
+          ]
+        },
+        "authkeywords": "Association rules | Data Mining | Higher Education | Student Retention | Student Intervention | Rules’ extraction",
+        "scopus-id": "84923046059",
+        "scopus-eid": "2-s2.0-84923046059",
+        "prism:teaser": "There are many students in the Greek Higher Education that are still “lingering” in their Departments beyond the six years. The length of studies beyond 6 years has not been justified, and this study..."
+      },
+      {
+        "@_fa": "true",
+        "link": [
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/article/pii/S1877042813003789",
+            "@ref": "self"
+          },
+          {
+            "@_fa": "true",
+            "@href": "http://www.sciencedirect.com/science/article/pii/S1877042813003789",
+            "@ref": "scidir"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.sbspro.2013.02.085",
+        "eid": "1-s2.0-S1877042813003789",
+        "prism:url": "http://api.elsevier.com/content/article/pii/S1877042813003789",
+        "dc:title": "Institutional Research Management using an Integrated Information System",
+        "dc:creator": "Tsolakidis, Anastasios",
+        "dc:description": "Abstract Research constitutes a fundamental activity within Higher Education and, for many institutions, comprises a major revenue income stream. Moreover, research increasingly becomes dependent on information systems to manage the complex information flows that it creates. This study introduces a web based software system built on Java technologies that supports institutional research management. The system provides decision support mechanisms using graph metrics in combination with data envelopment analysis as a method for efficiency measurement. Comparing the R&D outcomes of academic units with the dynamics of the collaboration patterns extracted from graphs, the developed system enables research managers to evaluate specific criteria and correlate strategic goals with research performance.",
+        "prism:publicationName": "Procedia - Social and Behavioral Sciences",
+        "prism:issueName": "Proceedings of the 2nd International Conference on Integrated Information (IC-ININFO 2012), Budapest, Hungary, August 30 – September 3, 2012",
+        "prism:issn": "18770428",
+        "prism:volume": "73",
+        "prism:issueIdentifier": null,
+        "prism:coverDate": [
+          {
+            "@_fa": "true",
+            "$": "2013-02-27"
+          }
+        ],
+        "prism:coverDisplayDate": "27 February 2013",
+        "prism:startingPage": "518",
+        "prism:endingPage": "525",
+        "prism:doi": "10.1016/j.sbspro.2013.02.085",
+        "openaccess": "1",
+        "openaccessArticle": true,
+        "openArchiveArticle": false,
+        "openaccessUserLicense": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+        "prism:aggregationType": "Journal",
+        "prism:copyright": "Copyright © 2013 The Authors. Published by Elsevier Ltd.",
+        "pii": "S1877-0428(13)00378-9",
+        "authors": {
+          "author": [
+            {
+              "@_fa": "true",
+              "given-name": "Tsolakidis",
+              "surname": "Anastasios"
+            },
+            {
+              "@_fa": "true",
+              "given-name": "Sgouropoulou",
+              "surname": "Cleo"
+            },
+            {
+              "@_fa": "true",
+              "given-name": "Papageorgiou",
+              "surname": "Effie"
+            },
+            {
+              "@_fa": "true",
+              "given-name": "Terraz",
+              "surname": "Olivier"
+            },
+            {
+              "@_fa": "true",
+              "given-name": "Miaoulis",
+              "surname": "George"
+            }
+          ]
+        },
+        "authkeywords": "Research management | Graph metrics | DEA | Information system | Visual analytics | Social network analysis | Info graphics",
+        "prism:teaser": "Research constitutes a fundamental activity within Higher Education and, for many institutions, comprises a major revenue income stream. Moreover, research increasingly becomes dependent on information..."
+      },
+      {
+        "@_fa": "true",
+        "link": [
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/article/pii/S1877042814040786",
+            "@ref": "self"
+          },
+          {
+            "@_fa": "true",
+            "@href": "http://www.sciencedirect.com/science/article/pii/S1877042814040786",
+            "@ref": "scidir"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.sbspro.2014.07.159",
+        "eid": "1-s2.0-S1877042814040786",
+        "prism:url": "http://api.elsevier.com/content/article/pii/S1877042814040786",
+        "dc:title": "The Analysis of the Length of Studies in Higher Education based on Clustering and the Extraction of Association Rules",
+        "dc:creator": "Petros, Belsis",
+        "dc:description": "Abstract The length of studies of the students who “linger” in Higher Education has not been justified in many countries, and the Higher Education Institutes try to solve the problem using various methods. The problem of students who “linger” in their Departments beyond the six or seven years is seen as complex one, in the Greek Higher Education. Two main alternative methods have been discussed: Giving the students who “linger” a low priority for registration in the laboratory classes, and limiting the number of times of attending laboratory based courses. Eventually, according to the new legislation the Greek Higher Education Institutes must cut off access to the students who “linger” too long. This study focuses on this hard problem. Clustering techniques and the mining of Association rules are used. The results of clustering and the generation of the association rules are based on students’ questionnaires collected in the laboratory classes. Various interesting results and rules are extracted and discussed.",
+        "prism:publicationName": "Procedia - Social and Behavioral Sciences",
+        "prism:issueName": "3rd International Conference on Integrated Information (IC-ININFO)",
+        "prism:issn": "18770428",
+        "prism:volume": "147",
+        "prism:issueIdentifier": null,
+        "prism:coverDate": [
+          {
+            "@_fa": "true",
+            "$": "2014-08-25"
+          }
+        ],
+        "prism:coverDisplayDate": "25 August 2014",
+        "prism:startingPage": "567",
+        "prism:endingPage": "575",
+        "prism:doi": "10.1016/j.sbspro.2014.07.159",
+        "openaccess": "1",
+        "openaccessArticle": true,
+        "openArchiveArticle": false,
+        "openaccessUserLicense": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+        "prism:aggregationType": "Journal",
+        "prism:copyright": "Copyright © 2014 Elsevier Ltd.",
+        "pii": "S1877-0428(14)04078-6",
+        "authors": {
+          "author": [
+            {
+              "@_fa": "true",
+              "given-name": "Petros",
+              "surname": "Belsis"
+            },
+            {
+              "@_fa": "true",
+              "given-name": "Ioannis",
+              "surname": "Chalaris"
+            },
+            {
+              "@_fa": "true",
+              "given-name": "Manolis",
+              "surname": "Chalaris"
+            },
+            {
+              "@_fa": "true",
+              "given-name": "Christos",
+              "surname": "Skourlas"
+            },
+            {
+              "@_fa": "true",
+              "given-name": "Anastasios",
+              "surname": "Tsolakidis"
+            }
+          ]
+        },
+        "authkeywords": "Association rules | Data Mining | Higher Education | Student Retention | Student Intervention | Rules’ extraction",
+        "prism:teaser": "The length of studies of the students who “linger” in Higher Education has not been justified in many countries, and the Higher Education Institutes try to solve the problem using various methods. The..."
+      },
+      {
+        "@_fa": "true",
+        "link": [
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/article/pii/S1877042814040282",
+            "@ref": "self"
+          },
+          {
+            "@_fa": "true",
+            "@href": "http://www.sciencedirect.com/science/article/pii/S1877042814040282",
+            "@ref": "scidir"
+          },
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/abstract/scopus_id/85006825391",
+            "@ref": "abstract"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.sbspro.2014.07.117",
+        "eid": "1-s2.0-S1877042814040282",
+        "prism:url": "http://api.elsevier.com/content/article/pii/S1877042814040282",
+        "dc:title": "Improving Quality of Educational Processes Providing New Knowledge Using Data Mining Techniques",
+        "dc:creator": "Manolis, Chalaris",
+        "dc:description": "Abstract One of the biggest challenges that Higher Education Institutions (HEI) faces is to improve the quality of their educational processes. Thus, it is crucial for the administration of the institutions to set new strategies and plans for a better management of the current processes. Furthermore, the managerial decision is becoming more difficult as the complexity of educational entities increase. The purpose of this study is to suggest a way to support the administration of a HEI by providing new knowledge related to the educational processes using data mining techniques. This knowledge can be extracted among other from educational data that derive from the evaluation processes that each department of a HEI conducts. These data can be found in educational databases, in students’ questionnaires or in faculty members’ records. This paper presents the capabilities of data mining in the context of a Higher Education Institute and tries to discover new explicit knowledge by applying data mining techniques to educational data of Technological Educational Institute of Athens. The data used for this study come from students’ questionnaires distributed in the classes within the evaluation process of each department of the Institute.",
+        "prism:publicationName": "Procedia - Social and Behavioral Sciences",
+        "prism:issueName": "3rd International Conference on Integrated Information (IC-ININFO)",
+        "prism:issn": "18770428",
+        "prism:volume": "147",
+        "prism:issueIdentifier": null,
+        "prism:coverDate": [
+          {
+            "@_fa": "true",
+            "$": "2014-08-25"
+          }
+        ],
+        "prism:coverDisplayDate": "25 August 2014",
+        "prism:startingPage": "390",
+        "prism:endingPage": "397",
+        "prism:doi": "10.1016/j.sbspro.2014.07.117",
+        "openaccess": "1",
+        "openaccessArticle": true,
+        "openArchiveArticle": false,
+        "openaccessUserLicense": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+        "prism:aggregationType": "Journal",
+        "prism:copyright": "Copyright © 2014 Elsevier Ltd.",
+        "pii": "S1877-0428(14)04028-2",
+        "authors": {
+          "author": [
+            {
+              "@_fa": "true",
+              "given-name": "Manolis",
+              "surname": "Chalaris"
+            },
+            {
+              "@_fa": "true",
+              "given-name": "Stefanos",
+              "surname": "Gritzalis"
+            },
+            {
+              "@_fa": "true",
+              "given-name": "Manolis",
+              "surname": "Maragoudakis"
+            },
+            {
+              "@_fa": "true",
+              "given-name": "Cleo",
+              "surname": "Sgouropoulou"
+            },
+            {
+              "@_fa": "true",
+              "given-name": "Anastasios",
+              "surname": "Tsolakidis"
+            }
+          ]
+        },
+        "authkeywords": "Data mining techniques | Higher Education Institutes | Educational Processes | Educational Data Mining | Decision support | CRISP-DM methodology",
+        "scopus-id": "85006825391",
+        "scopus-eid": "2-s2.0-85006825391",
+        "prism:teaser": "One of the biggest challenges that Higher Education Institutions (HEI) faces is to improve the quality of their educational processes. Thus, it is crucial for the administration of the institutions..."
+      }
+    ]
+  }
+}
