@@ -2,7 +2,7 @@
 
 
 ### Description
-The purpose of this story is to consume the info which is provided from the
+The purpose of this service is to consume the info which is provided from the
 following elsevier api: https://api.elsevier.com/documentation/SCIDIRSearchAPI.wadl
 
 The search view (result from the consuming of the service we get) 
