@@ -21,7 +21,7 @@ public class NoResultsAvailableGuard implements Predicate<ScienceDirectConsumerR
     private boolean noResultsAvailable(ScienceDirectConsumerResultsDto scienceDirectConsumerResultsDto) {
 
         final String forceArrayValueWhenNoResults = "true";
-        final String errorValueWhenNoResults = "Result set was empty";
+        final String errorValueWhenNoResults = "Result set was empty.";
 
         ScienceDirectSearchViewEntry authorSearchViewEntry = scienceDirectConsumerResultsDto
                 .getScienceDirectConsumerSearchViewDto()
@@ -30,7 +30,7 @@ public class NoResultsAvailableGuard implements Predicate<ScienceDirectConsumerR
                 .findFirst()
                 .get(); //note: here we should not have any problem.
 
-        if (forceArrayValueWhenNoResults.equals(authorSearchViewEntry.getForceArray())
+        if (forceArrayValueWhenNoResults.equals(authorSearchViewEntry.getFa())
                 && errorValueWhenNoResults.equals(authorSearchViewEntry.getError())) {
             log.info("NoResultsAvailableGuard#noResultsAvailable --- no results for provided info.");
             return true;
