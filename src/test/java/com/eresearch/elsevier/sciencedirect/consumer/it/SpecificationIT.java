@@ -5,7 +5,6 @@ import com.eresearch.elsevier.sciencedirect.consumer.EresearchElsevierSciencedir
 import com.eresearch.elsevier.sciencedirect.consumer.application.configuration.JmsConfiguration;
 import com.eresearch.elsevier.sciencedirect.consumer.core.FileSupport;
 import com.eresearch.elsevier.sciencedirect.consumer.dto.ElsevierScienceDirectConsumerDto;
-import com.eresearch.elsevier.sciencedirect.consumer.dto.SciDirQueueResultDto;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.tomakehurst.wiremock.junit.WireMockRule;
 import org.apache.activemq.ActiveMQConnectionFactory;
@@ -158,8 +157,6 @@ public class SpecificationIT {
 
                         TextMessage textMessage = (TextMessage) message;
                         String text = textMessage.getText();
-
-                        SciDirQueueResultDto sciDirQueueResultDto = objectMapper.readValue(text, SciDirQueueResultDto.class);
 
                         try {
 
