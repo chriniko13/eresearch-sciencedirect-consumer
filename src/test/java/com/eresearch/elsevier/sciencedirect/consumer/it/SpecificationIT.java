@@ -6,7 +6,6 @@ import com.eresearch.elsevier.sciencedirect.consumer.application.configuration.J
 import com.eresearch.elsevier.sciencedirect.consumer.core.FileSupport;
 import com.eresearch.elsevier.sciencedirect.consumer.dto.ElsevierScienceDirectConsumerDto;
 import com.eresearch.elsevier.sciencedirect.consumer.dto.SciDirQueueResultDto;
-import com.eresearch.elsevier.sciencedirect.consumer.dto.ScienceDirectConsumerResultsDto;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.tomakehurst.wiremock.junit.WireMockRule;
 import org.apache.activemq.ActiveMQConnectionFactory;
@@ -29,11 +28,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.web.client.RestTemplate;
 
 import javax.jms.*;
-import java.io.BufferedWriter;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.Collection;
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 
