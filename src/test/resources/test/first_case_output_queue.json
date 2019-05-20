@@ -1,9 +1,9 @@
 {
-  "transactionId": "1e321095-0ef1-4fda-92e8-9eaf61c3ac76",
+  "transactionId": "2a08f57b-8d8e-4dc1-a788-e2b38007e45c",
   "exceptionMessage": null,
   "sciDirResultsDto": {
     "operation-result": true,
-    "process-finished-date": "2019-04-16T11:45:01.408Z",
+    "process-finished-date": "2019-05-20T23:51:55.090Z",
     "requested-elsevier-sciencedirect-consumer-dto": {
       "firstname": "Grammati",
       "initials": "",

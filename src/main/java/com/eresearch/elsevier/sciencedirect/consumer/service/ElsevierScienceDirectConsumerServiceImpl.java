@@ -20,12 +20,10 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.jms.core.JmsTemplate;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.PostConstruct;
 import java.time.Clock;
 import java.time.Instant;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
+import java.util.*;
 
 @Service
 @Log4j
@@ -57,6 +55,11 @@ public class ElsevierScienceDirectConsumerServiceImpl implements ElsevierScience
     @Autowired
     @Qualifier("elsevierObjectMapper")
     private ObjectMapper objectMapper;
+
+    @PostConstruct
+    void init() {
+        queriesToSend = new TreeMap<>(queriesToSend);
+    }
 
     @Override
     public ElsevierScienceDirectConsumerResultsDto elsevierScienceDirectConsumerOperation(ElsevierScienceDirectConsumerDto elsevierScienceDirectConsumerDto) throws BusinessProcessingException {
