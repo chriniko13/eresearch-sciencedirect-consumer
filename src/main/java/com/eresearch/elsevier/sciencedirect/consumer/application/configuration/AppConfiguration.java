@@ -9,8 +9,6 @@ import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import com.google.common.util.concurrent.ThreadFactoryBuilder;
-import com.zaxxer.hikari.HikariConfig;
-import com.zaxxer.hikari.HikariDataSource;
 import io.netty.handler.ssl.SslContextBuilder;
 import net.jodah.failsafe.RetryPolicy;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -20,13 +18,9 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.context.annotation.Primary;
 import org.springframework.http.client.Netty4ClientHttpRequestFactory;
-import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.SchedulingConfigurer;
 import org.springframework.scheduling.config.ScheduledTaskRegistrar;
-import org.springframework.transaction.TransactionDefinition;
-import org.springframework.transaction.support.TransactionTemplate;
 import org.springframework.web.client.RestClientException;
 import org.springframework.web.client.RestTemplate;
 
@@ -139,53 +133,6 @@ public class AppConfiguration implements SchedulingConfigurer {
                 .withMaxRetries(3)
                 .withDelay(10, TimeUnit.SECONDS)
                 .withJitter(7, TimeUnit.SECONDS);
-    }
-
-    @Value("${db.url}")
-    private String dbUrl;
-
-    @Value("${db.username}")
-    private String username;
-
-    @Value("${db.password}")
-    private String password;
-
-    @Bean(destroyMethod = "close")
-    @Qualifier("hikariDataSource")
-    public HikariDataSource hikariDataSource() {
-
-        HikariConfig config = new HikariConfig();
-
-        config.setJdbcUrl(dbUrl);
-        config.setUsername(username);
-        config.setPassword(password);
-
-        config.setMetricRegistry(this.metricRegistry());
-        config.setHealthCheckRegistry(this.healthCheckRegistry());
-
-        return new HikariDataSource(config);
-    }
-
-    @Bean
-    public DataSourceTransactionManager transactionManager() {
-        return new DataSourceTransactionManager(this.hikariDataSource());
-    }
-
-    @Qualifier("transactionTemplate")
-    @Bean
-    public TransactionTemplate transactionTemplate() {
-
-        TransactionTemplate transactionTemplate = new TransactionTemplate(this.transactionManager());
-
-        transactionTemplate.setIsolationLevel(TransactionDefinition.ISOLATION_READ_UNCOMMITTED);
-        transactionTemplate.setPropagationBehavior(TransactionDefinition.PROPAGATION_REQUIRES_NEW);
-
-        return transactionTemplate;
-    }
-
-    @Bean
-    public JdbcTemplate jdbcTemplate() {
-        return new JdbcTemplate(this.hikariDataSource());
     }
 
     @Bean

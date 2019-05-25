@@ -1,18 +1,11 @@
 package com.eresearch.elsevier.sciencedirect.consumer;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import com.eresearch.elsevier.sciencedirect.consumer.application.event.listener.*;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
-
-import com.eresearch.elsevier.sciencedirect.consumer.application.event.listener.ApplicationEnvironmentPreparedEventListener;
-import com.eresearch.elsevier.sciencedirect.consumer.application.event.listener.ApplicationFailedEventListener;
-import com.eresearch.elsevier.sciencedirect.consumer.application.event.listener.ApplicationReadyEventListener;
-import com.eresearch.elsevier.sciencedirect.consumer.application.event.listener.ApplicationStartedEventListener;
-import com.eresearch.elsevier.sciencedirect.consumer.application.event.listener.BaseApplicationEventListener;
-import com.eresearch.elsevier.sciencedirect.consumer.db.DbOperations;
 
 /**
  * This is the entry point of our microservice.
@@ -42,8 +35,6 @@ public class EresearchElsevierSciencedirectConsumerApplication implements Comman
         springApplicationBuilder.listeners(new BaseApplicationEventListener());
     }
 
-    @Autowired
-    private DbOperations dbOperations;
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
@@ -52,6 +43,5 @@ public class EresearchElsevierSciencedirectConsumerApplication implements Comman
 
     @Override
     public void run(String... args) throws Exception {
-        dbOperations.runTask();
     }
 }

@@ -9,14 +9,12 @@ import com.eresearch.elsevier.sciencedirect.consumer.dto.SciDirQueueResultDto;
 import com.eresearch.elsevier.sciencedirect.consumer.dto.ScienceDirectConsumerResultsDto;
 import com.eresearch.elsevier.sciencedirect.consumer.exception.BusinessProcessingException;
 import com.eresearch.elsevier.sciencedirect.consumer.metrics.entries.ServiceLayerMetricEntry;
-import com.eresearch.elsevier.sciencedirect.consumer.repository.ScienceDirectConsumerRepository;
 import com.eresearch.elsevier.sciencedirect.consumer.service.query.QueryToSend;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.log4j.Log4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.jms.core.JmsTemplate;
 import org.springframework.stereotype.Service;
 
@@ -31,9 +29,6 @@ public class ElsevierScienceDirectConsumerServiceImpl implements ElsevierScience
 
     private static final String DASH = " ";
 
-    @Value("${enable.persistence.results}")
-    private String enablePersistenceForResults;
-
     @Autowired
     private Map<String, QueryToSend> queriesToSend;
 
@@ -42,9 +37,6 @@ public class ElsevierScienceDirectConsumerServiceImpl implements ElsevierScience
 
     @Autowired
     private Clock clock;
-
-    @Autowired
-    private ScienceDirectConsumerRepository scienceDirectConsumerRepository;
 
     @Autowired
     private ServiceLayerMetricEntry serviceLayerMetricEntry;
@@ -88,10 +80,6 @@ public class ElsevierScienceDirectConsumerServiceImpl implements ElsevierScience
             result.setResults(scienceDirectConsumerResultsDtos);
             result.setOperationResult(Boolean.TRUE);
             result.setProcessFinishedDate(Instant.now(clock));
-
-            if (Boolean.valueOf(enablePersistenceForResults)) {
-                scienceDirectConsumerRepository.save(elsevierScienceDirectConsumerDto, result);
-            }
 
             return result;
         } catch (BusinessProcessingException ex) {

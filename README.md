@@ -23,9 +23,9 @@ The search query we use are the following:
 
 * Academic VPN in order to fetch results from Elsevier API (https://dev.elsevier.com/documentation/ScienceDirectSearchAPI.wadl#d1e166)
 
-* MySQL && ActiveMQ
-    * Execute: `docker-compose up` in order to have a running instance of MySQL DB.
-    * Execute: `docker-compose down` in order to shutdown MySQL DB.
+* ActiveMQ
+    * Execute: `docker-compose up`
+    * Execute: `docker-compose down`
 
 
 ### Integration Tests (run docker-compose first)
