@@ -105,7 +105,7 @@ public class UniqueEntriesGuard {
         Integer accumulateUniqueEntriesSize = memoGuardStack.accumulateUniqueEntriesSize();
 
         //see if we have the proper results...
-        String infoMessage = String.format("UniqueEntriesGuard#apply, accumulateUniqueEntriesSize = %s , elsevierTotalResults = %s.",
+        String infoMessage = String.format("UniqueEntriesGuard#applyGuard, accumulateUniqueEntriesSize = %s , elsevierTotalResults = %s.",
                 accumulateUniqueEntriesSize, totalUniqueResults);
         log.info(infoMessage);
 

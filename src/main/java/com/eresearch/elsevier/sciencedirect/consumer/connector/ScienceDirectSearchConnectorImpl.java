@@ -79,7 +79,7 @@ public class ScienceDirectSearchConnectorImpl implements ScienceDirectSearchConn
         Timer.Context context = connectorLayerMetricEntry.getConnectorLayerTimer().time();
         try {
 
-            List<ScienceDirectConsumerResultsDto> results = new ArrayList<>();
+            List<ScienceDirectConsumerResultsDto> results = Collections.synchronizedList(new ArrayList<>());
 
             URI uri = constructUri(query);
 
@@ -104,7 +104,7 @@ public class ScienceDirectSearchConnectorImpl implements ScienceDirectSearchConn
 
             }
 
-            uniqueEntriesGuard.apply(results);
+            //uniqueEntriesGuard.apply(results);
             return results;
 
         } catch (BusinessProcessingException e) {
